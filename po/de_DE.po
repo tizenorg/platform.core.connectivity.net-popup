@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Verbunden"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "Die Verwendung des 3G-Netzes anstatt WLAN verursacht zusätzliche Kosten."
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Sicherheitsrichtlinie schränkt die Verwendung von WLAN ein."
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Verbindung mit Netzwerk nicht möglich"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nicht unterstützt"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Dienst nicht verfügbar. Später erneut versuchen"
+

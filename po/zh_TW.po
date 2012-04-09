@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "已連線"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "使用3G網路將產生額外的費用"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "由於安全政策，使用Wi-Fi被限制"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "無法連接到網路"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "不支援"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "無法使用服務。請稍後再試"
+

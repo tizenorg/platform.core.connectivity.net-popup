@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "已连接"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "使用3G网络而不是WLAN，将产生额外费用"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "安全政策限制使用WLAN"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "无法连接网络"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "不支持"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "服务不可用,稍后再试"
+

@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Подключено"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "За использование сети 3G вместо Wi-Fi может взиматься дополнительная плата"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Политика безопасности ограничивает использование Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Не удается подключиться к сети"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Не поддерживается"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Услуга недоступна. повторите попытку позже"
+

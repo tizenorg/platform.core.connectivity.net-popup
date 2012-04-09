@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Conectado"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "El uso de la red 3G en lugar de Wi-Fi tendrá un coste adicional"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "La política de seguridad restringe el uso del Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "No se puede conectar a la red"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "No admitido"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Servicio no disponible. Inténtelo más tarde."
+

@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "接続しました。"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "Wi-Fi​の​代わりに​3G​ネットワーク​を​利用​すると、​追加​料金​が​発生​します"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Wi-Fiの使用は、セキュリティポリシーによって制限されています。"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "ネット​ワーク​に​接続​できません"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "サポート​されていません"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "サービス​を​利用​できません。​後ほどお試しください"
+

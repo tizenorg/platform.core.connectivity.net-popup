@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "연결되었습니다"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "Wi-Fi 대신 3G 네트워크를 사용하면 추가 요금이 부가됩니다"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "보안 정책에 따라 Wi-Fi 사용이 제한됩니다"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "네트워크에 연결할 수 없습니다"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "사용할 수 없습니다"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "서비스를 이용할 수 없습니다. 잠시 후 다시 시도하세요"
+

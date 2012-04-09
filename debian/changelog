@@ -1,0 +1,15 @@
+net-popup (0.1.16) unstable; urgency=low
+
+  * Change package name from alert-3g-syspopup to net-popup
+  * Git: pkgs/n/net-popup
+  * Tag: net-popup_0.1.16
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Mon, 06 Feb 2012 12:56:40 +0900
+
+alert-3g-syspopup (0.1.0) unstable; urgency=low
+
+  * Initial Release
+  * Git: pkgs/a/alert-3g-syspopup
+  * Tag: alert-3g-syspopup_0.1.0
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Mon, 06 Feb 2012 12:56:40 +0900

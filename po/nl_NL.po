@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Verbonden"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "Voor 3G-netwerk in plaats van Wi-Fi betaalt u extra"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Gebruik van Wi-Fi beperkt door beveiligingsbeleid"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Kan niet verbinden met netwerk"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Niet ondersteund"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Dienst niet beschikbaar. Probeer het later opnieuw."
+
