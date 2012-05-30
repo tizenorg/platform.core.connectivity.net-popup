@@ -7,6 +7,7 @@ Release:    6
 Group:      App/Network
 License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.gz
+Source1001: packaging/net.netpopup.manifest 
 
 BuildRequires: cmake
 BuildRequires: pkgconfig(appcore-efl)
@@ -28,6 +29,7 @@ Network Notification Popup application
 %setup -q
 
 %build
+cp %{SOURCE1001} .
 cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix}
 make %{?jobs:-j%jobs}
 
@@ -38,6 +40,7 @@ rm -rf %{buildroot}
 
 
 %files
+%manifest net.netpopup.manifest
 %{_bindir}/net-popup
 %{_prefix}/share/process-info/net-popup.ini
 /opt/share/applications/net.netpopup.desktop
