@@ -1,0 +1,8 @@
+net-popup (0.1.18) unstable; urgency=low
+
+  * Update boiler plate
+  * Git: pkgs/n/net-popup
+  * Tag: net-popup_0.1.18
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Wed, 02 May 2012 17:20:39 +0900
+

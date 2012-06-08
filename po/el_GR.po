@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Συνδέθηκε"
+
+msgid "IDS_WGT_POP_USING_3G_NETWORK_INSTEAD_OF_WI_FI_WILL_INCUR_EXTRA_CHARGES"
+msgstr "Η χρήση του δικτύου 3G αντί του Wi-Fi θα επιφέρει επιπλέον χρεώσεις"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Η πολιτική ασφαλείας περιορίζει τη χρήση του Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Δεν είναι δυνατή η σύνδεση σε δίκτυο"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Δεν υποστηρίζεται"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Η υπηρεσία δεν είναι διαθέσιμη, δοκιμάστε αργότερα!"
+

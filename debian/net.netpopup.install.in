@@ -1,0 +1,4 @@
+@PREFIX@/bin/net-popup
+@PREFIX@/share/locale/*
+/opt/share/applications/net.netpopup.desktop
+@PREFIX@/share/process-info/net-popup.ini
