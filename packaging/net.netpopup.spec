@@ -2,10 +2,10 @@
 
 Name:       net.netpopup
 Summary:    Network Notification Popup application
-Version:    0.1.16
+Version:    0.1.17
 Release:    6
 Group:      App/Network
-License:    Samsung Proprietary License
+License:    Flora Software License
 Source0:    %{name}-%{version}.tar.gz
 Source1001: packaging/net.netpopup.manifest 
 
