@@ -1,8 +1,87 @@
+net-popup (0.1.20-5) unstable; urgency=low
+
+  * Change net-popup package license to 'Flora'
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.20-5
+
+ -- Kim sun il <sunil85.kim@samsung.com>  Fri, 10 Aug 2012 13:29:57 +0900
+
+net-popup (0.1.20-4) unstable; urgency=low
+
+  * Implement desktop manifest
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.20-4
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Tue, 31 Jul 2012 20:08:48 +0900
+
+net-popup (0.1.20-3) unstable; urgency=low
+
+  * Implement to del a notification
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.20-3
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Mon, 16 Jul 2012 16:12:34 +0900
+
+net-popup (0.1.20-2) unstable; urgency=low
+
+  * Add NULL check for bundle parameters
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.20-2
+
+ -- Danny Jeongseok Seo <s.seo@samsung.com>  Sat, 07 Jul 2012 19:47:21 +0900
+
+net-popup (0.1.20-1) unstable; urgency=low
+
+  * Add NULL check for bundle parameters
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.20-1
+
+ -- Danny Jeongseok Seo <s.seo@samsung.com>  Sat, 07 Jul 2012 17:57:18 +0900
+
+net-popup (0.1.20) unstable; urgency=low
+
+  * Add NULL check for bundle parameters
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.20
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Fri, 06 Jul 2012 12:40:06 +0900
+
+net-popup (0.1.19) unstable; urgency=low
+
+  * Implement to add a notification
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.19
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Fri, 29 Jun 2012 14:26:00 +0900
+
 net-popup (0.1.18) unstable; urgency=low
 
-  * Update boiler plate
-  * Git: pkgs/n/net-popup
+  * Modify a location of desktop file to /usr
+  * Git: slp/pkgs/n/net-popup
   * Tag: net-popup_0.1.18
 
- -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Wed, 02 May 2012 17:20:39 +0900
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Tue, 15 May 2012 15:38:43 +0900
 
+net-popup (0.1.17) unstable; urgency=low
+
+  * Add a popup style
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.17
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Wed, 04 Apr 2012 20:44:37 +0900
+
+net-popup (0.1.16) unstable; urgency=low
+
+  * Change package name from alert-3g-syspopup to net-popup
+  * Git: slp/pkgs/n/net-popup
+  * Tag: net-popup_0.1.16
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Mon, 06 Feb 2012 12:56:40 +0900
+
+alert-3g-syspopup (0.1.0) unstable; urgency=low
+
+  * Initial Release
+  * Git: slp/pkgs/a/alert-3g-syspopup
+  * Tag: alert-3g-syspopup_0.1.0
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Mon, 06 Feb 2012 12:56:40 +0900

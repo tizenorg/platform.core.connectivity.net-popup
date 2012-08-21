@@ -1,9 +1,0 @@
-Name=Network popup
-Type=Application
-Exec=/usr/bin/net-popup
-nodisplay=True
-Icon=NULL
-Comment=network popup
-x-tizen-taskmanage=False
-x-tizen-removable=False
-Version=0.1.0

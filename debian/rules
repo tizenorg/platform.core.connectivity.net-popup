@@ -10,8 +10,8 @@
 #export DH_VERBOSE=1
 
 CFLAGS ?= -Wall -g
-CXXFLAGS ?=  -Wall -g
-LDFLAGS ?= 
+CXXFLAGS ?= -Wall -g
+LDFLAGS ?=
 PREFIX ?= /usr
 DATADIR ?= /opt
 
@@ -39,7 +39,7 @@ configure-stamp:
 
 build: build-stamp
 
-build-stamp: configure-stamp 
+build-stamp: configure-stamp
 	dh_testdir
 
 	# Add here commands to compile the package.
@@ -83,18 +83,24 @@ clean:
 	for f in `find $(CURDIR)/ -name "install_manifest.txt"`; do \
 		rm -f $${f}; \
 	done
-	
+
 	for f in `find $(CURDIR)/debian/ -name "*.in"`; do \
 		rm -f $${f%.in}; \
 	done
-	rm -f data/*.desktop
 
-	dh_clean 
+	rm -f data/*.desktop
+	rm -f ../net.netpopup_*.deb
+	rm -f ../net.netpopup-*.deb
+	rm -f ../net-popup_*.changes
+	rm -f ../net-popup_*.dsc
+	rm -f ../net-popup_*.tar.gz
+
+	dh_clean
 
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k 
+	dh_clean -k
 	dh_installdirs
 
 	# Add here commands to install the package into debian/wavplayer.
@@ -111,7 +117,7 @@ binary-arch: build install
 	dh_testroot
 	dh_install --sourcedir=debian/tmp
 #	dh_installmenu
-#	dh_installdebconf	
+#	dh_installdebconf
 #	dh_installlogrotate
 #	dh_installemacsen
 #	dh_installpam

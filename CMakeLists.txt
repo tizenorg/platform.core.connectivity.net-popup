@@ -23,7 +23,9 @@ pkg_check_modules(pkgs REQUIRED
 	elementary
 	evas
 	syspopup
-	syspopup-caller)
+	syspopup-caller
+	appsvc
+	notification)
 
 FOREACH(flag ${pkgs_CFLAGS})
 	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag} -g")
@@ -56,8 +58,7 @@ INSTALL(TARGETS ${PROJECT_NAME} DESTINATION bin)
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-CONFIGURE_FILE(data/net.netpopup.desktop.in data/net.netpopup.desktop)
-INSTALL(FILES ${CMAKE_BINARY_DIR}/data/net.netpopup.desktop DESTINATION /opt/share/applications/)
+INSTALL(FILES ${CMAKE_BINARY_DIR}/data/net.netpopup.xml DESTINATION ${PREFIX}/share/packages/)
 
 INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data/images/ DESTINATION
 ${PREFIX}/share/icon FILES_MATCHING PATTERN "*.png")

@@ -2,10 +2,10 @@
 
 Name:       net.netpopup
 Summary:    Network Notification Popup application
-Version:    0.1.17
+Version:    0.1.20_5
 Release:    6
 Group:      App/Network
-License:    Flora Software License
+License:    Flora License
 Source0:    %{name}-%{version}.tar.gz
 
 BuildRequires: cmake
@@ -18,6 +18,8 @@ BuildRequires: pkgconfig(elementary)
 BuildRequires: pkgconfig(evas)
 BuildRequires: pkgconfig(syspopup)
 BuildRequires: pkgconfig(syspopup-caller)
+BuildRequires: pkgconfig(appsvc)
+BuildRequires: pkgconfig(notification)
 BuildRequires: gettext
 
 %description
@@ -40,5 +42,5 @@ rm -rf %{buildroot}
 %files
 %{_bindir}/net-popup
 %{_prefix}/share/process-info/net-popup.ini
-/opt/share/applications/net.netpopup.desktop
+%{_prefix}/share/packages/net.netpopup.xml
 %{_prefix}/share/locale/*/LC_MESSAGES/net-popup.mo
