@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "接続しました。"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Wi-Fiの使用は、セキュリティポリシーによって制限されています。"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "ネット​ワーク​に​接続​できません"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "サポート​されて​いません。"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "サービス​を​利用​できません。​後ほどお試しください"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "モバイルネットワークに接続中...\n定額フラットプランを適用していない場合、追加料金が発生する可能性があります。"
+

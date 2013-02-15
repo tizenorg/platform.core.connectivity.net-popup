@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Connesso"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "I criteri di sicurezza limitano l'uso del Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Impossibile connettersi alla rete"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Non supportato"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Servizio non disponibile. Riprovare più tardi."
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "Connessione a reti mobili in corso...\nPotrebbero essere applicati addebiti aggiuntivi se non si usa un piano dati a tariffa fissa"
+

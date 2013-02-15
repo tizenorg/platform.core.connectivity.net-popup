@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Savienots"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Drošības politika ierobežo Wi-Fi lietošanu"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Nevar izveidot savienojumu ar tīklu"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nav nodrošināts"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Pakalpojums nav pieejams. mēģiniet vēlāk"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "Veido savienojumu ar mobilajiem tīkliem...\nJa neizmantojat vienoto tarifa plānu, var rasties papildu izmaksas"
+

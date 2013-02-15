@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "जोड़ा गया"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "सुरक्षा नीति Wi-Fi के उपयोग को प्रतिबंधित करती है"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "नेटवर्क से जोड़ने में अक्षम"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "असमर्थित"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "सेवा अनुपलब्‍ध। बाद में कोशिश करें"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "मोबाइल नेटवर्क्स से कनेक्ट किया जा रहा है...\nअतिरिक्त शुल्क लागू हो सकते हैं यदि आप फ़्लैट रेट प्लान का उपयोग नही कर रहे हैं"
+

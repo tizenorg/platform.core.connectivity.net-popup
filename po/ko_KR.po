@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "연결되었습니다"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "보안 정책에 따라 Wi-Fi 사용이 제한됩니다"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "네트워크에 연결할 수 없습니다"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "사용할 수 없습니다"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "서비스를 이용할 수 없습니다. 잠시 후 다시 시도하세요"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "데이터 네트워크에 연결합니다. 정액요금제 또는 무료이용 서비스가 아닌 경우 데이터 통화료가 부과됩니다."
+
