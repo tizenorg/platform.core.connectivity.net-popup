@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Nasctha"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Cuireann an beartas slándála srian ar úsáid Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Ní féidir nascadh le líonra"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Gan tacú"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Níl seirbhís ar fáil. Triail arís níos moille"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "Ag nascadh le líonraí móibíleacha...\nIs féidir go ngearrfar táillí breise  mura bhfuil plean sonraí bunrata á úsáid agat"
+

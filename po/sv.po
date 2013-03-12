@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Ansluten"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Säkerhetspolicy begränsar användningen av Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Det går inte att ansluta till nätverket"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Kan ej användas"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Tjänsten är inte tillgänglig. försök senare."
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "Ansluter till mobilnätverk...\nYtterligare avgifter kan tillkomma om du inte har en dataplan med fast taxa"
+

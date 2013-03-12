@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Connectat"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "La política de seguretat restringeix l'ús de Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Error en la connexió a la xarxa"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "No s'admet"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Servei no disponible. Intenti-ho més tard"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "Connectant a xarxes mòbils...\nPot comportar càrrecs addicionals si no utilitza una tarifa plana de dades"
+

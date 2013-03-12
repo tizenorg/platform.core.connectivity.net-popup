@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Conectat"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Politica de securitate restricţionează utilizarea reţelei Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Imposibil de conectat la reţea"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Neacceptat"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Serviciu indisponibil, încercaţi mai târziu!"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "Se conectează la reţelele mobile...\nSe pot genera taxe suplimentare dacă nu utilizaţi un plan de date cu tarife fixe"
+

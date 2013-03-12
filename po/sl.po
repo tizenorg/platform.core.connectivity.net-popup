@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Povezano"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Varnostni pravilnik omejuje uporabo omrežja Wi-Fi"
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Ni mogoče vzpostaviti povezave z omrežjem"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nepodprto"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Storitve ni na voljo. poskusite znova"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "Povezovanje z mobilnimi omrežji ...\nČe nimate pavšalne mesečne naročnine, lahko pride do dodatnih stroškov"
+

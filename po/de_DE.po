@@ -1,0 +1,18 @@
+msgid "IDS_WIFI_BODY_CONNECTED"
+msgstr "Verbunden"
+
+msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
+msgstr "Sicherheitsrichtlinie schränkt die Verwendung von WLAN ein."
+
+msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
+msgstr "Verbindung mit Netzwerk nicht möglich"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nicht unterstützt"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Dienst nicht verfügbar. Später erneut versuchen"
+
+msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
+msgstr "Verbindung mit mobilem Netzwerk wird hergestellt...\nHierbei können zusätzliche Kosten anfallen, wenn Sie keine Flatrate besitzen."
+
