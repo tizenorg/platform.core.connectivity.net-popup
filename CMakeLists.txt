@@ -69,5 +69,3 @@ SET(PREFIX ${CMAKE_INSTALL_PREFIX})
 INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/org.tizen.net-popup.xml DESTINATION /usr/share/packages/)
 #INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/org.tizen.net-popup.png DESTINATION /usr/share/icons/default/small)
 #INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/custom_popup.edj DESTINATION /usr/apps/org.tizen.net-popup/res/edje)
-
-ADD_SUBDIRECTORY(po)

@@ -3,7 +3,7 @@
 
 Name:       org.tizen.net-popup
 Summary:    Network Notification Popup application
-Version:    0.2.01_2
+Version:    0.2.01_1
 Release:    1
 Group:      App/Network
 License:    Flora License
@@ -42,7 +42,7 @@ make %{?jobs:-j%jobs}
 
 #License
 mkdir -p %{buildroot}%{_datadir}/license
-cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
+cp LICENSE %{buildroot}%{_datadir}/license/org.tizen.net-popup
 
 
 %files
@@ -51,4 +51,3 @@ cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
 %{_usrdir}/share/packages/org.tizen.net-popup.xml
 %{_appdir}/org.tizen.net-popup/bin/net-popup
 %{_datadir}/license/org.tizen.net-popup
-%{_appdir}/org.tizen.net-popup/res/locale/*/LC_MESSAGES/*.mo
