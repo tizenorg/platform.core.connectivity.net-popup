@@ -1,3 +1,19 @@
+net-popup (0.2.01-3) precise; urgency=low
+
+  * Update for trunk SR
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.01-3
+
+ -- sunil85.kim <isurit@sunil85.kim>  Fri, 15 Mar 2013 14:19:39 +0900
+
+net-popup (0.2.01-2) precise; urgency=low
+
+  * Update for SR
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.01-2
+
+ -- sunil85.kim <isurit@sunil85.kim>  Mon, 25 Feb 2013 18:03:36 +0900
+
 net-popup (0.2.01-1) unstable; urgency=low
 
   * Change net-popup to app-svc application.

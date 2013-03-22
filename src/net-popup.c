@@ -232,7 +232,8 @@ static void __net_popup_add_found_ap_noti(void)
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 	bundle *b = NULL;
 
-	notification_delete_all_by_type("/usr/apps/org.tizen.net-popup/bin/net-popup", NOTIFICATION_TYPE_ONGOING);
+	__net_popup_del_found_ap_noti();
+
 	noti = notification_new(NOTIFICATION_TYPE_ONGOING, NOTIFICATION_GROUP_ID_NONE,
 			NETCONFIG_NOTIFICATION_WIFI_FOUND_PRIV_ID);
 	if (noti == NULL) {
@@ -310,8 +311,7 @@ static void __net_popup_del_found_ap_noti(void)
 {
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 
-	noti_err = notification_delete_all_by_type("/usr/apps/org.tizen.net-popup/bin/net-popup",
-			NOTIFICATION_TYPE_ONGOING);
+	noti_err = notification_delete_all_by_type("org.tizen.net-popup",NOTIFICATION_TYPE_ONGOING);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
 		log_print(NET_POPUP, "fail to notification_delete_by_priv_id");
 		return;
