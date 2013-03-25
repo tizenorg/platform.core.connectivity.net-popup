@@ -2,3 +2,4 @@
 @PREFIX@/share/locale/*
 @PREFIX@/share/applications/net.netpopup.desktop
 @PREFIX@/share/process-info/net-popup.ini
+@PREFIX@/share/packages/net.netpopup.xml

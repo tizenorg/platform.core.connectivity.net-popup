@@ -16,3 +16,12 @@ msgstr "服务暂时离线。请稍后再试"
 msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
 msgstr "正在连接至移动网络…\n如果您未使用统一收费数据方案可能产生额外费用"
 
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Wi-Fi网络可用"
+
+msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
+msgstr "开放Wi-Fi设置"
+
+msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
+msgstr "选定网络（%s）不可用"
+

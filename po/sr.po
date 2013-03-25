@@ -16,3 +16,12 @@ msgstr "Usluga nedostupna. probaj kasnije"
 msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
 msgstr "Povezivanje na mobilne mreže...\nMože doći do dodatnih troškova ako ne koristiš paušalni plan plaćanja za prenos podataka"
 
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Wi-Fi mreže dostupne"
+
+msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
+msgstr "Otvori Wi-Fi podešavanja"
+
+msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
+msgstr "Izabrana mreža (%s) nije dostupna"
+

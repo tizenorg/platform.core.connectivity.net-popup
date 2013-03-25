@@ -17,22 +17,17 @@
 *
 */
 
-#ifndef __DEF_NET_POPUP_H_
-#define __DEF_NET_POPUP_H_
+#ifndef __DEF_NET_POPUP_H__
+#define __DEF_NET_POPUP_H__
 
-#include <Elementary.h>
 #include <dlog.h>
-
-#ifndef PREFIX
-#define PREFIX "/usr"
-#endif
+#include <Elementary.h>
 
 #define PACKAGE		"net-popup"
-#define ALERT_STR_LEN_MAX 100
+#define ALERT_STR_LEN_MAX	100
 
 #define NET_POPUP	"NET_POPUP"
 #define log_print(tag, format, args...) LOG(LOG_DEBUG, \
-	tag, "%s:%d "format, __func__, __LINE__, ##args)
+		tag, "%s:%d "format, __func__, __LINE__, ##args)
 
-
-#endif				/* __DEF_NET_POPUP_H_ */
+#endif /* __DEF_NET_POPUP_H__ */

@@ -16,3 +16,12 @@ msgstr "Palvelu ei ole saatavilla. Yritä myöhemmin uudelleen."
 msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
 msgstr "Yhdistetään matkapuhelinverkkoihin...\nLisämaksut ovat mahdollisia, jos et käytä kiinteää hinnoittelua"
 
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Käytettävissä olevat Wi-Fi-verkot"
+
+msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
+msgstr "Avaa Wi-Fi-asetukset"
+
+msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
+msgstr "Valittu verkko (%s) ei ole käytettävissä"
+

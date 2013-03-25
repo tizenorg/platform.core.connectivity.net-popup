@@ -16,3 +16,12 @@ msgstr "Tjänsten är inte tillgänglig. försök senare."
 msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
 msgstr "Ansluter till mobilnätverk...\nYtterligare avgifter kan tillkomma om du inte har en dataplan med fast taxa"
 
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Wi-Fi-nätverk är tillgängliga"
+
+msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
+msgstr "Öppna Wi-Fi-inställningar"
+
+msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
+msgstr "Valt nätverk (%s) är inte tillgängligt"
+

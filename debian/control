@@ -6,13 +6,13 @@ Uploaders: Sanghoon Cho <sanghoon80.cho@samsung.com>, Danny Jeongseok Seo <s.seo
 Build-Depends: debhelper (>= 5),libevas-dev, libecore-dev, libethumb-dev, libelm-dev, libefreet-dev, libappcore-efl-dev, libdevman-dev, syspopup-dev, syspopup-caller-dev, dlog-dev
 Standards-Version: 0.1.0 
 
-Package: org.tizen.net-popup
+Package: net.netpopup
 Section: main
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libslp-utilx-0, libdlog-0
 Description: network system-popup application
 
-Package: org.tizen.net-popup-dbg
+Package: net.netpopup-dbg
 Section: debug
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}

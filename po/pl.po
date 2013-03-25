@@ -16,3 +16,12 @@ msgstr "Usługa niedostępna. Spróbuj później"
 msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
 msgstr "Łączenie z sieciami komórkowymi...\nMogą zostać naliczone dodatkowe opłaty, jeżeli nie używasz planu jednolitych taryf"
 
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Dostępne sieci Wi-Fi"
+
+msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
+msgstr "Otwórz ustawienia Wi-Fi"
+
+msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
+msgstr "Wybrana sieć (%s) jest niedostępna"
+

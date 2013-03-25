@@ -12,7 +12,7 @@
 CFLAGS ?= -Wall -g
 CXXFLAGS ?= -Wall -g
 LDFLAGS ?=
-PREFIX ?= /opt/apps/org.tizen.net-popup
+PREFIX ?= /usr
 DATADIR ?= /opt
 
 ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))

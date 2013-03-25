@@ -1,27 +1,27 @@
 msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Ühendatud"
+msgstr "Conectado"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Turvalisuse poliis piirab Wi-Fi kasutuse"
+msgstr "La política de seguridad restringe el uso del Wi-Fi"
 
 msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Võrguga ei saa ühendust luua"
+msgstr "No se puede conectar a la red"
 
 msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Tugi puudub"
+msgstr "No soportado"
 
 msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Teenus ei ole saadaval. proovi hiljem"
+msgstr "Servicio no disponible. Inténtelo más tarde."
 
 msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Ühenduse loomine mobiilsidevõrkudega...\nKui te ei kasuta püsitasuga andmepaketti, võivad rakenduda lisatasud"
+msgstr "Conectando a redes móviles...\nPuede generar cobros adicionales si no utiliza un plan de datos de tarifa fija"
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
-msgstr "Wi-Fi võrgud on saadaval"
+msgstr "Redes Wi-Fi disponibles"
 
 msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Ava Wi-Fi seaded"
+msgstr "Abrir configuración de Wi-Fi"
 
 msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Valitud võrk (%s) ei ole saadaval"
+msgstr "Red seleccionada (%s) no disponible"
 

@@ -1,5 +1,64 @@
 <manifest>
+	<define>
+		<domain name="net.netpopup"/>
+	</define>
+	<assign>
+		<filesystem path="/usr/share/license/net.netpopup" label="_"/>
+		<filesystem path="/usr/share/packages/net.netpopup.xml" label="_"/>
+		<filesystem path="/usr/share/process-info/net-popup.ini" label="_"/>
+		<filesystem path="/usr/share/locale/ar/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/az/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/bg/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ca/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/cs/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/da/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/de_DE/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/el_GR/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/en/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/en_PH/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/en_US/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/es_ES/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/es_US/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/et/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/eu/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/fi/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/fr_CA/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/fr_FR/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ga/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/gl/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/hi/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/hr/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/hu/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/hy/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/is/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/it_IT/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ja_JP/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ka/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/kk/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ko_KR/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/lt/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/lv/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/mk/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/nb/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/nl_NL/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/pl/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/pt_BR/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/pt_PT/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ro/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ru_RU/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/sk/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/sl/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/sr/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/sv/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/tr_TR/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/uk/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/uz/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/zh_CN/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/zh_HK/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/zh_SG/LC_MESSAGES/net-popup.mo" label="_"/>
+		<filesystem path="/usr/share/locale/zh_TW/LC_MESSAGES/net-popup.mo" label="_"/>
+	</assign>
 	<request>
-		<domain name="_"/>
+		<domain name="net.netpopup"/>
 	</request>
 </manifest>

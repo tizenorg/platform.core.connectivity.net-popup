@@ -16,3 +16,12 @@ msgstr "Ծառայությունը հասանելի չէ. Փորձեք ավել�
 msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
 msgstr "Միանում է շարժական կապի ցանցերին...\nԼրացուցիչ վճար կարող է պահանջվել, եթե չեք օգտագործում հաստատուն սակագնով տվյալների փոխանցման պլան"
 
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Wi-Fi ցանցերը մատչելի են"
+
+msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
+msgstr "Բացել Wi-Fi կարգավորումները"
+
+msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
+msgstr "Ընտրված ցանցը (%s) մատչելի չէ"
+

@@ -1,24 +1,80 @@
-net-popup (0.2.01-3) precise; urgency=low
+net-popup (0.2.1-10) unstable; urgency=low
 
-  * Update for trunk SR
+  * Set text domain to support language change
   * Git: magnolia/apps/home/net-popup
-  * Tag: net.netpopup_0.2.01-3
+  * Tag: net.netpopup_0.2.1-10
 
- -- sunil85.kim <isurit@sunil85.kim>  Fri, 15 Mar 2013 14:19:39 +0900
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Thu, 21 Mar 2013 11:55:55 +0900
 
-net-popup (0.2.01-2) precise; urgency=low
+net-popup (0.2.1-9) unstable; urgency=low
 
-  * Update for SR
+  * Update strings in po files
   * Git: magnolia/apps/home/net-popup
-  * Tag: net.netpopup_0.2.01-2
+  * Tag: net.netpopup_0.2.1-9
 
- -- sunil85.kim <isurit@sunil85.kim>  Mon, 25 Feb 2013 18:03:36 +0900
+ -- Nishant Kumar Sharma <nishant.vns@samsung.com>  Mon, 11 Mar 2013 16:41:19 +0530
 
-net-popup (0.2.01-1) unstable; urgency=low
+net-popup (0.2.1-8) unstable; urgency=low
+
+  * SMACK label updated
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.1-8
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Tue, 26 Feb 2013 16:52:13 +0900
+
+net-popup (0.2.1-7) unstable; urgency=low
+
+  * Set CFLAGS fvisibility hidden
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.1-7
+
+ -- Danny Jeongseok Seo <s.seo@samsung.com>  Thu, 21 Feb 2013 21:25:57 +0900
+
+net-popup (0.2.1-6) unstable; urgency=low
+
+  * Update adding Wi-Fi found notification
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.1-6
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Tue, 19 Feb 2013 22:02:29 +0900
+
+net-popup (0.2.1-5) unstable; urgency=low
+
+  * SMACK rules updated
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.1-5
+
+ -- Danny Jeongseok Seo <s.seo@samsung.com>  Thu, 14 Feb 2013 21:52:24 +0900
+
+net-popup (0.2.1-4) unstable; urgency=low
+
+  * SMACK rules updated
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.1-4
+
+ -- Danny Jeongseok Seo <s.seo@samsung.com>  Fri, 01 Feb 2013 17:31:40 +0900
+
+net-popup (0.2.1-3) unstable; urgency=low
+
+  * Change the package name.
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.1-3
+
+ -- Praveen C <pravin.c@samsung.com>  Tue, 29 Jan 2013 16:57:46 +0530
+
+net-popup (0.2.1-2) unstable; urgency=low
+
+  * Fix del_notification param to pkg name from fullpath
+  * Git: magnolia/apps/home/net-popup
+  * Tag: net.netpopup_0.2.1-2
+
+ -- Sanghoon Cho <sanghoon80.cho@samsung.com>  Fri, 25 Jan 2013 21:15:32 +0900
+
+net-popup (0.2.1-1) unstable; urgency=low
 
   * Change net-popup to app-svc application.
   * Git: magnolia/apps/home/net-popup
-  * Tag: net.netpopup_0.2.01-1
+  * Tag: net.netpopup_0.2.1-1
 
  -- Praveen C <pravin.c@samsung.com>  Wed, 19 Dec 2012 14:21:35 +0530
 

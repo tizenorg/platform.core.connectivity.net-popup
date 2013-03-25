@@ -16,3 +16,12 @@ msgstr "Pakalpojums nav pieejams. mēģiniet vēlāk"
 msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
 msgstr "Veido savienojumu ar mobilajiem tīkliem...\nJa neizmantojat vienoto tarifa plānu, var rasties papildu izmaksas"
 
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Wi-Fi tīkli pieejami"
+
+msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
+msgstr "Atvērt Wi-Fi iestatījumus"
+
+msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
+msgstr "Izvēlētais tīkls (%s) nav pieejams"
+
