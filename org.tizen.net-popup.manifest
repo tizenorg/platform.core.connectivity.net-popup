@@ -1,0 +1,12 @@
+<manifest>
+    <define>
+        <domain name="org.tizen.net-popup"/>
+    </define>
+    <assign>
+        <filesystem path="/usr/share/applications/org.tizen.net-popup.desktop" label="_"/>
+        <filesystem path="/opt/share/process-info/net-popup.ini" label="_"/>
+    </assign>
+    <request>
+        <domain name="org.tizen.net-popup"/>
+    </request>
+</manifest>

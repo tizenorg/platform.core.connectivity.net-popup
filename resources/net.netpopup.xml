@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" package="net.netpopup" version="0.4.55-3" install-location="internal-only">
-	<label>Network popup</label>
-	<author email="sanghoon80.cho@samsung.com" href="www.samsung.com">Sanghoon Cho</author>
-	<description>Network popup</description>
-	<ui-application appid="net.netpopup" exec="/usr/bin/net-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
-		<label>Network popup</label>
-	</ui-application>
-</manifest>

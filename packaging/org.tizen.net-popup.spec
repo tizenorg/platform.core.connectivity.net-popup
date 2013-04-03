@@ -1,6 +1,9 @@
-Name:       net.netpopup
+%define _usrdir /usr
+%define _appdir %{_usrdir}/apps
+
+Name:       org.tizen.net-popup
 Summary:    Network Notification Popup application
-Version:    0.2.1_10
+Version:    0.2.01_3
 Release:    1
 Group:      App/Network
 License:    Flora License
@@ -29,27 +32,22 @@ Network Notification Popup application
 
 
 %build
-cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix}
+cmake . -DCMAKE_INSTALL_PREFIX=%{_appdir}/org.tizen.net-popup
 
-make %{?_smp_mflags}
+make %{?jobs:-j%jobs}
 
 
 %install
 %make_install
 
-mkdir -p %{buildroot}%{_sysconfdir}/smack/accesses2.d/
-cp -v net.netpopup.rule %{buildroot}%{_sysconfdir}/smack/accesses2.d/
-
 #License
 mkdir -p %{buildroot}%{_datadir}/license
-cp LICENSE.Flora %{buildroot}%{_datadir}/license/net.netpopup
+cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
 
 
 %files
-%manifest net.netpopup.manifest
-%{_bindir}/net-popup
-%{_datadir}/process-info/net-popup.ini
-%{_datadir}/packages/net.netpopup.xml
-%{_datadir}/locale/*/LC_MESSAGES/net-popup.mo
-%{_datadir}/license/net.netpopup
-%{_sysconfdir}/smack/accesses2.d/net.netpopup.rule
+%manifest org.tizen.net-popup.manifest
+%defattr(-,root,root,-)
+%{_usrdir}/share/packages/org.tizen.net-popup.xml
+%{_appdir}/org.tizen.net-popup/bin/net-popup
+%{_datadir}/license/org.tizen.net-popup

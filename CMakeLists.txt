@@ -49,14 +49,8 @@ SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
 ADD_EXECUTABLE(${PROJECT_NAME} ${SRCS})
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS})
 
-INSTALL(TARGETS ${PROJECT_NAME} DESTINATION bin)
+INSTALL(TARGETS ${PROJECT_NAME} DESTINATION /usr/apps/org.tizen.net-popup/bin)
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/net.netpopup.xml DESTINATION ${PREFIX}/share/packages/)
-
-
-# install ini file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/resources/${PROJECT_NAME}.ini DESTINATION share/process-info)
-
-ADD_SUBDIRECTORY(po)
+INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/org.tizen.net-popup.xml DESTINATION /usr/share/packages/)

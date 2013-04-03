@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.net-popup" version="0.1.01-1" install-location="internal-only">
+	<label>Network popup</label>
+	<author email="sunil85.kim@samsung.com" href="https://www.tizen.org/">Sunil Kim</author>
+	<description>Network popup</description>
+	<ui-application appid="org.tizen.net-popup" exec="/usr/apps/org.tizen.net-popup/bin/net-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
+		<label>Network popup</label>
+	</ui-application>
+</manifest>

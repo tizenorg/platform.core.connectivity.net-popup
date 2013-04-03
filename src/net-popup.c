@@ -244,7 +244,7 @@ static void __net_popup_add_found_ap_noti(void)
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 	bundle *b = NULL;
 
-	notification_get_detail_list("net.netpopup", NOTIFICATION_GROUP_ID_NONE,
+	notification_get_detail_list("org.tizen.net-popup", NOTIFICATION_GROUP_ID_NONE,
 			NOTIFICATION_PRIV_ID_NONE, -1, &noti_list);
 	if (noti_list != NULL) {
 		notification_free_list(noti_list);
@@ -341,7 +341,7 @@ static void __net_popup_del_found_ap_noti(void)
 {
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 
-	noti_err = notification_delete_all_by_type("net.netpopup",
+	noti_err = notification_delete_all_by_type("org.tizen.net-popup",
 			NOTIFICATION_TYPE_ONGOING);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
 		log_print(NET_POPUP, "fail to notification_delete_by_priv_id");
@@ -559,12 +559,12 @@ static void __net_popup_add_restricted_state_noti(bundle *b)
 	text_cs = bundle_get_val(b, "_SYSPOPUP_NETWORK_NAME_");
 	if (text_cs)
 		__net_popup_add_restricted_state_noti_real (
-				"net.netpopup.restricted_state_cs", text_cs);
+				"org.tizen.net-popup.restricted_state_cs", text_cs);
 
 	text_ps = bundle_get_val(b, "_SYSPOPUP_NETWORK_NAME2_");
 	if (text_ps)
 		__net_popup_add_restricted_state_noti_real (
-				"net.netpopup.restricted_state_ps", text_ps);
+				"org.tizen.net-popup.restricted_state_ps", text_ps);
 
 	if (!text_cs && !text_ps)
 		log_print(NET_POPUP, "failed, text_cs=%p, text_ps=%p",
@@ -575,14 +575,14 @@ static void __net_popup_del_restricted_state_noti(void)
 {
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 
-	noti_err = notification_delete_all_by_type("net.netpopup.restricted_state_cs",
+	noti_err = notification_delete_all_by_type("org.tizen.net-popup.restricted_state_cs",
 			NOTIFICATION_TYPE_ONGOING);
 	if (noti_err != NOTIFICATION_ERROR_NONE)
 		log_print(NET_POPUP, "fail to notification_delete_by_priv_id");
 	else
 		log_print(NET_POPUP, "Successfully deleted cs notification");
 
-	noti_err = notification_delete_all_by_type("net.netpopup.restricted_state_ps",
+	noti_err = notification_delete_all_by_type("org.tizen.net-popup.restricted_state_ps",
 			NOTIFICATION_TYPE_ONGOING);
 	if (noti_err != NOTIFICATION_ERROR_NONE)
 		log_print(NET_POPUP, "fail to notification_delete_by_priv_id");
