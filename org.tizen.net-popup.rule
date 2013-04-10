@@ -1,0 +1,17 @@
+org.tizen.net-popup e17 w
+org.tizen.net-popup xorg w
+org.tizen.net-popup isf rwx
+org.tizen.net-popup dbus rwx
+org.tizen.net-popup ail::db rw
+org.tizen.net-popup csc-manager x
+org.tizen.net-popup sound_server rw
+org.tizen.net-popup pulseaudio rwxat
+org.tizen.net-popup syspopup::db rw
+org.tizen.net-popup notification::db rw
+org.tizen.net-popup system::vconf rwxat
+org.tizen.net-popup system::media rwxat
+org.tizen.net-popup system::share rwxat
+org.tizen.net-popup device::app_logging w
+org.tizen.net-popup system::homedir rwxat
+org.tizen.net-popup sys-assert::core rwxat
+org.tizen.net-popup system::use_internet r

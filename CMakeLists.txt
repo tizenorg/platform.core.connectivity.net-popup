@@ -53,4 +53,6 @@ INSTALL(TARGETS ${PROJECT_NAME} DESTINATION /usr/apps/org.tizen.net-popup/bin)
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/org.tizen.net-popup.xml DESTINATION /usr/share/packages/)
+INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/org.tizen.net-popup.xml DESTINATION ${PREFIX}/share/packages/)
+
+ADD_SUBDIRECTORY(po)
