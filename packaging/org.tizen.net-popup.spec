@@ -3,7 +3,7 @@
 
 Name:       org.tizen.net-popup
 Summary:    Network Notification Popup application
-Version:    0.2.1_12
+Version:    0.2.1_13
 Release:    1
 Group:      App/Network
 License:    Flora License
