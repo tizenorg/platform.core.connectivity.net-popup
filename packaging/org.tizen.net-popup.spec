@@ -3,7 +3,7 @@
 
 Name:       org.tizen.net-popup
 Summary:    Network Notification Popup application
-Version:    0.2.1_15
+Version:    0.2.1_16
 Release:    1
 Group:      App/Network
 License:    Flora License
@@ -40,8 +40,8 @@ make %{?_smp_mflags}
 %install
 %make_install
 
-mkdir -p %{buildroot}%{_sysconfdir}/smack/accesses2.d/
-cp -v org.tizen.net-popup.rule %{buildroot}%{_sysconfdir}/smack/accesses2.d/
+mkdir -p %{buildroot}%{_sysconfdir}/smack/accesses.d/
+cp -v org.tizen.net-popup.rule %{buildroot}%{_sysconfdir}/smack/accesses.d/
 
 #License
 mkdir -p %{buildroot}%{_datadir}/license
@@ -54,4 +54,4 @@ cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
 %{_datadir}/packages/org.tizen.net-popup.xml
 %{_datadir}/license/org.tizen.net-popup
 %{_datadir}/locale/*/LC_MESSAGES/net-popup.mo
-%{_sysconfdir}/smack/accesses2.d/org.tizen.net-popup.rule
+%{_sysconfdir}/smack/accesses.d/org.tizen.net-popup.rule
