@@ -1,4 +1,4 @@
-e17 org.tizen.net-popup -w---
+e17 org.tizen.net-popup rwx--
 org.tizen.net-popup xorg rw---
 org.tizen.net-popup isf rwx--
 org.tizen.net-popup dbus rwx--
