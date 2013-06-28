@@ -8,6 +8,7 @@ Release:    1
 Group:      App/Network
 License:    Flora License
 Source0:    %{name}-%{version}.tar.gz
+Source1001: 	org.tizen.net-popup.manifest
 BuildRequires: cmake
 BuildRequires: pkgconfig(appcore-efl)
 BuildRequires: pkgconfig(bundle)
@@ -29,6 +30,7 @@ Network Notification Popup application
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 
 %build
@@ -49,7 +51,7 @@ cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
 
 
 %files
-%manifest org.tizen.net-popup.manifest
+%manifest %{name}.manifest
 %{_appdir}/org.tizen.net-popup/bin/net-popup
 %{_datadir}/packages/org.tizen.net-popup.xml
 %{_datadir}/license/org.tizen.net-popup
