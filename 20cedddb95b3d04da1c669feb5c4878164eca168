@@ -1,0 +1,8 @@
+Change-Id: I20cedddb95b3d04da1c669feb5c4878164eca168
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 10:08:15 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4418
+Project: apps/core/preloaded/net-popup
+Branch: refs/heads/tizen
