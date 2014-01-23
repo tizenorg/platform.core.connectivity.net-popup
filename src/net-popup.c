@@ -21,7 +21,6 @@
 #include <appcore-efl.h>
 #include <syspopup.h>
 #include <glib.h>
-#include <Ecore_X.h>
 #include <status.h>
 #include <notification.h>
 #include <appsvc.h>
@@ -175,7 +174,6 @@ static int __net_popup_show_popup(bundle *b, void *data)
 	Evas_Object *win;
 	Evas_Object *popup;
 	Evas_Object *button;
-	int w, h;
 
 	const char* mode = bundle_get_val(b, "_SYSPOPUP_CONTENT_");
 
@@ -189,8 +187,6 @@ static int __net_popup_show_popup(bundle *b, void *data)
 	win = elm_win_add(NULL, PACKAGE, ELM_WIN_BASIC);
 	elm_win_alpha_set(win, EINA_TRUE);
 	elm_win_borderless_set(win, EINA_TRUE);
-	ecore_x_window_size_get(ecore_x_window_root_first_get(), &w, &h);
-	evas_object_resize(win, w, h);
 
 	popup = elm_popup_add(win);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
