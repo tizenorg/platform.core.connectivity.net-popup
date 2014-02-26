@@ -1,3 +1,5 @@
+%bcond_with wayland
+
 %define _usrdir /usr
 %define _appdir %{_usrdir}/apps
 
@@ -34,7 +36,12 @@ cp %{SOURCE1001} .
 
 
 %build
-cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix}
+%cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} \
+%if %{with wayland}
+        -DWAYLAND_SUPPORT=On
+%else
+        -DWAYLAND_SUPPORT=Off
+%endif
 
 make %{?_smp_mflags}
 
