@@ -43,7 +43,6 @@ make %{?_smp_mflags}
 %make_install
 
 mkdir -p %{buildroot}%{_sysconfdir}/smack/accesses.d/
-cp -v org.tizen.net-popup.rule %{buildroot}%{_sysconfdir}/smack/accesses.d/
 
 #License
 mkdir -p %{buildroot}%{_datadir}/license
@@ -56,4 +55,3 @@ cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
 %{_datadir}/packages/org.tizen.net-popup.xml
 %{_datadir}/license/org.tizen.net-popup
 %{_datadir}/locale/*/LC_MESSAGES/net-popup.mo
-%{_sysconfdir}/smack/accesses.d/org.tizen.net-popup.rule
