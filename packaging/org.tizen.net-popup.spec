@@ -1,4 +1,5 @@
 %bcond_with wayland
+%bcond_with x
 
 %define _usrdir /usr
 %define _appdir %{_usrdir}/apps
@@ -6,11 +7,11 @@
 Name:       org.tizen.net-popup
 Summary:    Network Notification Popup application
 Version:    0.2.1_17
-Release:    1
+Release:    0
 Group:      App/Network
-License:    Flora License
+License:    Flora-1.1
 Source0:    %{name}-%{version}.tar.gz
-Source1001: 	org.tizen.net-popup.manifest
+Source1001:    org.tizen.net-popup.manifest
 BuildRequires: cmake
 BuildRequires: pkgconfig(appcore-efl)
 BuildRequires: pkgconfig(bundle)
@@ -23,8 +24,8 @@ BuildRequires: pkgconfig(syspopup)
 BuildRequires: pkgconfig(syspopup-caller)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(status)
-BuildRequires:	pkgconfig(notification)
-BuildRequires:	pkgconfig(appsvc)
+BuildRequires: pkgconfig(notification)
+BuildRequires: pkgconfig(appsvc)
 BuildRequires: gettext
 
 %description
@@ -38,12 +39,18 @@ cp %{SOURCE1001} .
 %build
 %cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} \
 %if %{with wayland}
-        -DWAYLAND_SUPPORT=On
+        -DWAYLAND_SUPPORT=On \
 %else
-        -DWAYLAND_SUPPORT=Off
+        -DWAYLAND_SUPPORT=Off \
 %endif
+%if %{with x}
+        -DX11_SUPPORT=On \
+%else
+        -DX11_SUPPORT=Off \
+%endif
+        #eol
 
-make %{?_smp_mflags}
+make %{?_smp_mflags} V=1
 
 
 %install
@@ -60,5 +67,5 @@ cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
 %manifest %{name}.manifest
 %{_appdir}/org.tizen.net-popup/bin/net-popup
 %{_datadir}/packages/org.tizen.net-popup.xml
-%{_datadir}/license/org.tizen.net-popup
+%license %{_datadir}/license/org.tizen.net-popup
 %{_datadir}/locale/*/LC_MESSAGES/net-popup.mo
