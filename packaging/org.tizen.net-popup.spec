@@ -7,9 +7,9 @@
 Name:       org.tizen.net-popup
 Summary:    Network Notification Popup application
 Version:    0.2.1_17
-Release:    1
+Release:    0
 Group:      App/Network
-License:    Flora License
+License:    Flora-1.1
 Source0:    %{name}-%{version}.tar.gz
 Source1001: 	org.tizen.net-popup.manifest
 BuildRequires: cmake
@@ -44,13 +44,14 @@ cp %{SOURCE1001} .
         -DWAYLAND_SUPPORT=Off \
 %endif
 %if %{with x}
-        -DWAYLAND_SUPPORT=On \
-%else
         -DWAYLAND_SUPPORT=Off \
+%else
+        -DWAYLAND_SUPPORT=On \
 %endif
         #eol
 
-make %{?_smp_mflags}
+#make %{?_smp_mflags} V=1
+make V=1
 
 
 %install
@@ -67,5 +68,5 @@ cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
 %manifest %{name}.manifest
 %{_appdir}/org.tizen.net-popup/bin/net-popup
 %{_datadir}/packages/org.tizen.net-popup.xml
-%{_datadir}/license/org.tizen.net-popup
+%license %{_datadir}/license/org.tizen.net-popup
 %{_datadir}/locale/*/LC_MESSAGES/net-popup.mo
