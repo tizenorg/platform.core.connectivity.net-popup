@@ -9,7 +9,7 @@ Summary:    Network Notification Popup application
 Version:    0.2.1_17
 Release:    0
 Group:      App/Network
-License:    Flora-1.1
+License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.gz
 Source1001:    org.tizen.net-popup.manifest
 BuildRequires: cmake
@@ -60,7 +60,7 @@ mkdir -p %{buildroot}%{_sysconfdir}/smack/accesses.d/
 
 #License
 mkdir -p %{buildroot}%{_datadir}/license
-cp LICENSE.Flora %{buildroot}%{_datadir}/license/org.tizen.net-popup
+cp LICENSE.APLv2 %{buildroot}%{_datadir}/license/org.tizen.net-popup
 
 
 %files
