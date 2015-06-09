@@ -18,11 +18,13 @@
 */
 
 #include <stdio.h>
-#include <appcore-efl.h>
 #include <syspopup.h>
 #include <glib.h>
 #include <status.h>
 #include <notification.h>
+#include <notification_internal.h>
+#include <notification_text_domain.h>
+#include <appcore-efl.h>
 #include <appsvc.h>
 
 #include "net-popup.h"

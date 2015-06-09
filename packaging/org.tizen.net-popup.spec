@@ -6,7 +6,7 @@
 
 Name:       org.tizen.net-popup
 Summary:    Network Notification Popup application
-Version:    0.2.1_17
+Version:    0.2.1_18
 Release:    0
 Group:      App/Network
 License:    Apache-2.0
