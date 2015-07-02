@@ -6,7 +6,7 @@
 
 Name:       org.tizen.net-popup
 Summary:    Network Notification Popup application
-Version:    0.2.1_18
+Version:    0.2.1_19
 Release:    0
 Group:      App/Network
 License:    Apache-2.0
@@ -55,8 +55,6 @@ make %{?_smp_mflags} V=1
 
 %install
 %make_install
-
-mkdir -p %{buildroot}%{_sysconfdir}/smack/accesses.d/
 
 #License
 mkdir -p %{buildroot}%{_datadir}/license
