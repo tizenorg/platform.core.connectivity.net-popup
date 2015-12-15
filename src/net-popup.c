@@ -26,6 +26,7 @@
 #include <notification_text_domain.h>
 #include <appcore-efl.h>
 #include <appsvc.h>
+#include <bundle_internal.h>
 
 #include "net-popup.h"
 #include "net-popup-strings.h"
