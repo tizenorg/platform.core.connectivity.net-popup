@@ -22,6 +22,7 @@
 #include <glib.h>
 #include <status.h>
 #include <notification.h>
+#include <notification_list.h>
 #include <notification_internal.h>
 #include <notification_text_domain.h>
 #include <appcore-efl.h>
