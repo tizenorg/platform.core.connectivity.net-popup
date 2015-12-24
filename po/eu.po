@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Konektatuta"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Ezeztatu"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Ados"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Gehienezko karaktere kopurura heldu zara"
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Pasahitz okerra"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Wi-Fi piztuz gero Wi-Fi ainguraketa ezgaituko du"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Ez da Wi-Fi APrik aurkitu"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ez"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
 msgstr "Segurtasun politikak Wi-Fi erabilera mugatzen du"
 
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Ezin da sarera konektatu"
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Wi-Fi sareak erabilgarri"
+
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Zure sare mugikorrera konektatuko zara. Baliteke kostu osagarriak eragitea."
+
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "%s Wi-Fi sarera konektatuta"
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Ukitu hemen konektatzeko."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Hasi saioa Wi-Fi sarean"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Ez galdetu berriz"
 
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Bateraezina"
 
 msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Zerbitzua ez dago eskuragarri. Geroago saiatu"
+msgstr "Zerbitzua ez dago eskuragarri. Geroago saiatu."
 
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Sare mugikorretara konektatzen...\nBaliteke kostu osagarriak eragitea, ez baduzu tarifa finko planik erabiltzen"
-
-msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
-msgstr "Wi-Fi sareak erabilgarri"
-
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Ireki Wi-Fi ezarpenak"
-
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Aukeratutako sarea (%s) ez dago eskuragarri"
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Ezin da konektatu"
 

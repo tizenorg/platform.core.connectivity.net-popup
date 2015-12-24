@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "接続しました。"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "キャンセル"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "最大文字数に達しました。"
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "パスワードが正しくありません。"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Wi-FiをONにすると、Wi-Fiテザリングが無効になります。"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Wi-Fi APが見つかりません。"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "いいえ"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
 msgstr "Wi-Fiの使用は、セキュリティポリシーによって制限されています。"
 
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "ネットワークに接続できません"
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "使用可能なWi-Fiネットワーク"
+
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "モバイルネットワークに接続します。追加料金が発生する可能性があります。"
+
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Wi-Fiネットワーク%sに接続しました。"
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "接続するには、ここをタップしてください。"
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Wi-Fiネットワークにサインインしてください。"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "今後表示しない"
 
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "サポートされていません。"
 
 msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "サービスを利用できません。後ほどお試しください"
+msgstr "サービスを利用できません。後ほどお試しください。"
 
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "モバイルネットワークに接続中...\n定額フラットプランを適用していない場合、追加料金が発生する可能性があります。"
-
-msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
-msgstr "使用可能なWi-Fiネットワーク"
-
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Wi-Fi設定を表示"
-
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "選択したネットワーク（%s）は利用できません。"
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "接続できません。"
 

@@ -1,18 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Conectado"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Aceptar"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Se ha alcanzado el número máximo de caracteres."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Contraseña incorrecta"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "La activación de Wi-Fi desactivará el anclaje a red Wi-Fi."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "No se ha encontrado ningún Punto de Acceso de Wi-Fi."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "No"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "La política de seguridad restringe el uso del Wi-Fi"
+msgstr "La política de seguridad restringe el uso del Wi-Fi."
 
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "No se puede conectar a la red"
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Redes Wi-Fi disponibles"
+
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Se conectará a su red móvil. Esto puede generar un coste adicional."
+
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Conectado a red Wi-Fi %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Pulse aquí para conectar."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Acceder a la red Wi-Fi"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "No volver a preguntar"
 
 msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "No soportado"
+msgstr "No soportado."
 
 msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
 msgstr "Servicio no disponible. Inténtelo más tarde."
 
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Conectando a redes móviles...\nPuede generar cobros adicionales si no utiliza un plan de datos de tarifa fija"
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Error al conectar."
 

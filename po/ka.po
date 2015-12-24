@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "დაკავშირებულია"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_COM_SK_OK"
+msgstr "კი"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "მიღწეულია სიმბოლოების მაქსიმალური რაოდენობა."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "პაროლი არასწორია."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "თუ ჩართავთ Wi-Fi-ს, გამოირთვება Wi-Fi მობილური ინტერნეტი კომპიუტერში."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Wi-Fi AP ვერ მოიძებნა."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "არა"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "უსაფრთხოების პოლიტიკა ზღუდავს Wi-Fi-ის გამოყენებას"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "ქსელს ვერ უკავშირდება"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "გაუთვალისწინებელი"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "მომსახურება არ არის. მოგვიანებით ცადეთ"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "მყარდება კავშირი მობილურ ქსელებთან...\nშეიძლება დაგერიცხოთ დამატებითი გადასახადი, თუ არ იყენებთ ფიქსირებულ გადასახადს"
+msgstr "უსაფრთხოების პოლიტიკა ზღუდავს Wi-Fi-ის გამოყენებას."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "მისაწვდომი Wi-Fi ქსელები"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Wi-Fi პარამეტრების გახსნა"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "თქვენ დაუკავშირდებით თქვენს მობილურ ქსელს. ამის გამო, შეიძლება დაგერიცხოთ დამატებითი გადასახადი."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "არჩეული ქსელი (%s) მიუწვდომელია"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "დაუკავშირდა Wi-Fi ქსელს %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "შეეხეთ აქ და დაუკავშირდით."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Wi-Fi ქსელში შესვლა"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "აღარ მკითხო"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "გაუთვალისწინებელი."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "მომსახურება არ არის. მოგვიანებით ცადეთ."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "ვერ დაუკავშირდებით."
 

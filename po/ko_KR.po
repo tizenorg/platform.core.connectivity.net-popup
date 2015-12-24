@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "연결되었습니다"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "취소"
+
+msgid "IDS_COM_SK_OK"
+msgstr "확인"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "최대 글자 수에 도달하였습니다."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "비밀번호가 바르지 않습니다."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Wi-Fi를 실행하면 Wi-Fi 테더링을 연결 해제합니다."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "액세스 포인트를 찾을 수 없습니다."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "아니요"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "보안 정책에 따라 Wi-Fi 사용이 제한됩니다"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "네트워크에 연결할 수 없습니다"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "사용할 수 없습니다"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "서비스를 이용할 수 없습니다. 잠시 후 다시 시도하세요."
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "데이터 네트워크에 연결합니다. 정액요금제 또는 무료이용 서비스가 아닌 경우 데이터 통화료가 부과됩니다."
+msgstr "보안정책에 따라 Wi-Fi를 사용할 수 없습니다."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi 사용할 수 있음"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Wi-Fi 설정 열기"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "모바일 네트워크에 연결합니다. 추가요금이 부과될 수 있습니다."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "선택한 네트워크(%s)를 사용할 수 없습니다"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "%s Wi-Fi 네트워크에 연결하였습니다."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "연결하려면 여기를 누르세요."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Wi-Fi 네트워크 로그인"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "다시 묻지 않기"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "지원되지 않습니다."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "서비스를 이용할 수 없습니다. 나중에 시도하세요."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "연결할 수 없습니다."
 

@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Ansluten"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Avbryt"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Maximalt antal tecken har använts."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Fel lösenord."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Om du slår på Wi-Fi inaktiveras Wi-Fi-internetdelning."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Det finns ingen Wi-Fi-åtkomstpunkt."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nej"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Säkerhetspolicy begränsar användningen av Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Det går inte att ansluta till nätverket"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Kan ej användas"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Tjänsten är inte tillgänglig. försök senare."
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Ansluter till mobilnätverk...\nYtterligare avgifter kan tillkomma om du inte har en dataplan med fast taxa"
+msgstr "Säkerhetspolicy begränsar användningen av Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi-nätverk är tillgängliga"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Öppna Wi-Fi-inställningar"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Du kommer att bli ansluten till ditt mobilnät. Det kan medföra extra kostnader."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Valt nätverk (%s) är inte tillgängligt"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Ansluten till Wi-Fi-nätverket %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Tryck här för att ansluta."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Logga in på Wi-Fi-nätv."
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Fråga inte igen"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Kan ej användas."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Tjänsten är inte tillgänglig. försök senare."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Det gick inte att ansluta."
 

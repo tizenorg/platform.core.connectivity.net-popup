@@ -1,54 +1,54 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Ləğv et"
+msgstr "Annuler"
 
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
-msgstr "Simvol sayı maksimuma çatıb."
+msgstr "Nb max de caractères atteint"
 
 msgid "IDS_ST_POP_WRONG_PASSWORD"
-msgstr "Yanlış şifrə."
+msgstr "Mot de passe incorrect"
 
 msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
-msgstr "Wi-Fi-ın yandırılması Wi-Fi bağlantısını qeyri-aktiv edəcək."
+msgstr "L'activation du Wi-Fi va désactiver le modem Wi-Fi."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
-msgstr "Wi-Fi AP tapılmadı."
+msgstr "Aucune application Wi-Fi trouvée."
 
 msgid "IDS_WIFI_BODY_WI_FI"
 msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
-msgstr "Xeyr"
+msgstr "Non"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Təhlükəsizlik siyasəti Wi-Fi-dan istifadəni məhdudlaşdırır."
+msgstr "La politique de sécurité limite l'utilisation du Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
-msgstr "Wi-Fi şəbəkələr mövcuddur"
+msgstr "Réseaux Wi-Fi disponibles"
 
 msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
-msgstr "Siz mobil şəbəkənizə qoşulacaqsınız. Bu, əlavə xərclərə səbəb ola bilər."
+msgstr "Vous allez être connecté à votre réseau mobile. Des frais supplémentaires peuvent être facturés."
 
 msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
-msgstr "Wi-Fi şəbəkəsinə %s qoşuldu."
+msgstr "Connecté au réseau Wi-Fi %s"
 
 msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
-msgstr "Qoşulmaq üçün vurun."
+msgstr "Appuyez ici pour vous connecter."
 
 msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
-msgstr "Wi-Fi şəbəkəsinə daxil ol"
+msgstr "Connexion au réseau Wi-Fi"
 
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
-msgstr "Təkrar soruşma"
+msgstr "Ne plus demander"
 
 msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Dəstəklənmir."
+msgstr "Non pris en charge"
 
 msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Xidmətdən istifadə etmək mümkün deyil. Bir az sonra cəhd edin."
+msgstr "Service non disponible. Réessayez plus tard."
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
-msgstr "Qoşulmaq mümkün deyil."
+msgstr "Connexion impossible"
 

@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "जोड़ा गया"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "रद्द"
+
+msgid "IDS_COM_SK_OK"
+msgstr "ओके"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "वर्णो की संख्‍या अधिकतम पहुँची।"
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "गलत पासवर्ड।"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Wi-Fi चालू करने पर Wi-Fi टेथरिंग अक्षम हो जाएगा"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "कोई Wi-Fi AP नहीं मिला।"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "नहीं"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "सुरक्षा नीति Wi-Fi के उपयोग को प्रतिबंधित करती है"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "नेटवर्क से जोड़ने में अक्षम"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "असमर्थित"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "सेवा अनुपलब्‍ध। बाद में कोशिश करें"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "मोबाइल नेटवर्क्स से कनेक्ट किया जा रहा है...\nअतिरिक्त शुल्क लागू हो सकते हैं यदि आप फ़्लैट रेट प्लान का उपयोग नही कर रहे हैं"
+msgstr "सुरक्षा नीति Wi-Fi के उपयोग को प्रतिबंधित करती है।"
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "WI-FI नेटवर्क्स उपलब्ध"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "खुले Wi-Fi सेटिंग्स"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "आपको अपने मोबाइल नेटवर्क से कनेक्ट किया जाएगा। इसके परिणाम स्वरूप अतिरिक्त शुल्क लग सकते हैं।"
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "चयनित नेटवर्क (%s) उपलब्ध नहीं"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Wi-Fi नेटवर्क %s से कनेक्ट किया गया।"
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "कनेक्ट करने के लिए यहाँ टैप करें।"
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Wi-Fi नेटवर्क साइन इन करे"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "दोबारा न पूछें"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "असमर्थित।"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "सेवा अनुपलब्‍ध। बाद में कोशिश करें।"
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "कनेक्‍ट करने में अक्षम।"
 

@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Bağlantı kuruldu"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "İptal"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Tamam"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Maksimum karakter sayısına ulaşıldı."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Yanlış şifre."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Wi-Fi'yi açmak Wi-Fi tethering'i devre dışı bırakır."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Hiç Wi-Fi AP bulunamadı."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Hayır"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Güvenlik ilkesi Wi-Fi kullanımını kısıtlıyor"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Ağa bağlanamadı"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Desteklenmiyor"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Hizmete Erişilemiyor. Daha Sonra Deneyin"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Mobil ağlara bağlanıyor...\nSabit fiyatlı tarife kullanmıyorsanız ek ücrete tabi olabilirsiniz"
+msgstr "Güvenlik ilkesi Wi-Fi kullanımını kısıtlıyor."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi ağları mevcut"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Wi-Fi ayarlarını açın"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Mobil ağınıza bağlanacaksınız. Bunun için ek ücretler uygulanabilir."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Seçili ağ (%s) mevcut değil"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Wi-Fi ağına %s bağlandı."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Bağlanmak için buraya dokunun."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Wi-Fi ağına oturum açın"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Tekrar sorma"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Desteklenmiyor."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Hizmete Erişilemiyor. Daha Sonra Deneyin."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Bağlantı başarısız."
 

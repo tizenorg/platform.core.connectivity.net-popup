@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Povezano"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Prekliči"
+
+msgid "IDS_COM_SK_OK"
+msgstr "V redu"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Doseženo je največje dovoljeno število znakov."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Napačno geslo."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Vklop vmesnika Wi-Fi bo onemogočil privezovanje prek Wi-Fi."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Ne najdem dostopne točke Wi-Fi."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Varnostni pravilnik omejuje uporabo omrežja Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Ni mogoče vzpostaviti povezave z omrežjem"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Nepodprto"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Storitve ni na voljo. poskusite znova"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Povezovanje z mobilnimi omrežji ...\nČe nimate pavšalne mesečne naročnine, lahko pride do dodatnih stroškov"
+msgstr "Varnostni pravilnik omejuje uporabo omrežja Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Na voljo so omrežja Wi-Fi"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Odpri nastavitve za Wi-Fi"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Povezava bo vzpostavljena prek mobilnega omrežja.To lahko povzroči dodatne stroške."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Izbrano omrežje (%s) ni na voljo"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Povezava z omrežjem Wi-Fi %s vzpostavljena."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Pritisnite tukaj za povezavo."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Prijava v omrežje Wi-Fi"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Ne vprašaj znova"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nepodprto."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Storitve ni na voljo. poskusite znova."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Ni mogoče povezati."
 

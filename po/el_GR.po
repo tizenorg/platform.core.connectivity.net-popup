@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Συνδέθηκε"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Άκυρο"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Ο μέγιστος αριθμός χαρακτήρων συμπληρώθηκε."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Λάθος κωδικός."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Η ενεργοποίηση του Wi-Fi θα απενεργοποιήσει το tethering μέσω Wi-Fi."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Δεν βρέθηκε εφαρμογή Wi-Fi."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Όχι"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Η πολιτική ασφαλείας περιορίζει τη χρήση του Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Δεν είναι δυνατή η σύνδεση σε δίκτυο"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Δεν υποστηρίζεται"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Η υπηρεσία δεν είναι διαθέσιμη, δοκιμάστε αργότερα!"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Σύνδεση σε δίκτυα κινητής τηλεφωνίας...\nΕνδέχεται να υπάρξουν πρόσθετες χρεώσεις σε περίπτωση που δεν χρησιμοποιείτε πρόγραμμα δεδομένων σταθερής χρέωσης"
+msgstr "Η πολιτική ασφαλείας περιορίζει τη χρήση του Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Διαθέσιμα δίκτυα Wi-Fi"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Άνοιγμα ρυθμίσεων Wi-Fi"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Θα συνδεθείτε στο δίκτυό σας κινητής τηλεφωνίας. Αυτή η ενέργεια ενδέχεται να επιφέρει πρόσθετες χρεώσεις."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Το επιλεγμένο δίκτυο (%s) δεν είναι διαθέσιμο"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Συνδέθηκε στο δίκτυο Wi-Fi %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Πατήστε εδώ για σύνδεση."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Σύνδεση στο δίκτυο Wi-Fi"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Να μην ερωτηθώ ξανά"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Δεν υποστηρίζεται."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Η υπηρεσία δεν είναι διαθέσιμη, δοκιμάστε αργότερα!."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Δεν είναι δυνατή η σύνδεση."
 

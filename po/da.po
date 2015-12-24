@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Forbundet"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Annullér"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Det maksimale antal tegn er nået."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Forkert adgangskode."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Aktivering af Wi-Fi vil deaktivere Wi-Fi-internetdeling."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Ingen Wi-Fi-AP fundet."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nej"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Sikkerhedspolitik begrænser brug af Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Kan ikke slutte til netværk"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Understøttes ikke"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Tjenesten er ikke tilgængelig. Prøv igen senere"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Opretter forbindelse til mobile netværk ...\nYderligere gebyrer kan forekomme, hvis du ikke bruger et fast abonnement"
+msgstr "Sikkerhedspolitik begrænser brug af Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi-netværk tilgængelige"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Åbn Wi-Fi-indstillinger"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Du vil blive tilsluttet via dit mobile netværk. Dette kan medføre yderligere gebyrer."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Valgt netværk (%s) ikke tilgængeligt"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Forbundet til Wi-Fi-netværk %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Tap her for at forbinde."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Log på Wi-Fi-netværk"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Spørg ikke igen"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Understøttes ikke."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Tjenesten er ikke tilgængelig. Prøv igen senere."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Der kan ikke oprettes forbindelse."
 

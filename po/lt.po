@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Prisijungta"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Atšaukti"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Gerai"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Pasiektas didžiausias simbolių skaičius."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Neteisingas slaptažodis."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Įjungus „Wi-Fi“ bus išjungtas „Wi-Fi“ siejimas."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "„Wi-Fi“ AP nerasta."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Saugos strategija riboja naudojimąsi „Wi-Fi“"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Neįmanoma prisijungti prie tinklo"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Nepalaikoma"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Paslauga neteikiama. pamėginkite vėliau"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Jungiantis prie mobiliųjų tinklų...\ngali būti taikomas papildomas mokestis, jei nesinaudojate fiksuoto dydžio įmokos planu"
+msgstr "Saugos strategija riboja naudojimąsi „Wi-Fi“."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Pasiekiami „Wi-Fi“ tinklai"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Atidaryti „Wi-Fi“ nustatymus"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Būsite prijungti prie mobiliojo tinklo. Dėl to gali būti taikomi papildomi mokesčiai."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Pasirinktas tinklas (%s) nepasiekiamas"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Prisijungta prie „Wi-Fi“ tinklo %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Bakstelėkite čia, norėdami prisijungti."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Prisijungti prie „Wi-Fi“"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Kitą kartą neklausti"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nepalaikoma."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Paslauga neteikiama. pamėginkite vėliau."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Neįmanoma prijungti."
 
