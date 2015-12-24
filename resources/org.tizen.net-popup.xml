@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.net-popup" version="0.4.55-3" install-location="internal-only">
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.net-popup" api-version="2.4" version="0.4.55-3" install-location="internal-only">
 	<label>Network popup</label>
 	<author email="sunil85.kim@samsung.com" href="www.samsung.com">Sunil Kim</author>
 	<description>Network popup</description>
