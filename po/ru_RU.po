@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Подключено"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Отмена"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Достигнуто максимальное число символов."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Неправильный пароль"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "При включении Wi-Fi модем Wi-Fi будет отключен."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Точка доступа Wi-Fi не найдена."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Нет"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Политика безопасности ограничивает использование Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Не удается подключиться к сети"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Не поддерживается"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Услуга недоступна. повторите попытку позже"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Подключение к мобильной сети...\nЕсли не используется безлимитный тариф, за это может взиматься дополнительная плата"
+msgstr "Политика безопасности ограничивает использование Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
-msgstr "Сети Wi-Fi доступны"
+msgstr "Есть доступные сети Wi-Fi"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Открыть параметры Wi-Fi"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Будет выполнено подключение к мобильной сети. За это будет взиматься дополнительная плата."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Выбранная сеть (%s) недоступна"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Подключено к сети Wi-Fi %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Нажмите здесь для подключения."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Войти в сеть Wi-Fi"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Больше не спрашивать"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Не поддерживается."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Услуга недоступна. повторите попытку позже."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Невозможно подключиться."
 

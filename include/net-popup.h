@@ -1,13 +1,13 @@
 /*
 *  net-popup
 *
-* Copyright 2012-2013  Samsung Electronics Co., Ltd
+* Copyright 2012  Samsung Electronics Co., Ltd
 *
-* Licensed under the Apache License, Version 2.0 (the "License");
+* Licensed under the Flora License, Version 1.0 (the "License");
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
 *
-* http://www.apache.org/licenses/LICENSE-2.0
+* http://www.tizenopensource.org/license
 *
 * Unless required by applicable law or agreed to in writing, software
 * distributed under the License is distributed on an "AS IS" BASIS,
@@ -24,10 +24,13 @@
 #include <Elementary.h>
 
 #define PACKAGE		"net-popup"
-#define ALERT_STR_LEN_MAX	100
+#define ALERT_STR_LEN_MAX	1024
 
 #define NET_POPUP	"NET_POPUP"
-#define log_print(tag, format, args...) LOG(LOG_DEBUG, \
-		tag, "%s:%d "format, __func__, __LINE__, ##args)
+#define log_print(MID, format, args...) \
+	SLOG(LOG_INFO, MID, "\033[0m[%s:%d]\033[0m " format, __func__, __LINE__, ##args)
+
+#define secure_log_print(tag, format, args...) SECURE_SLOG(LOG_DEBUG, \
+			tag, "%s:%d "format, __func__, __LINE__, ##args)
 
 #endif /* __DEF_NET_POPUP_H__ */

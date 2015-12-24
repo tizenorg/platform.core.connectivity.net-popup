@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "تم التوصيل"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_COM_SK_OK"
+msgstr "موافق"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "تم الوصول إلى أقصى عدد من الحروف."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "كلمة المرور خاطئة."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "سيؤدي تشغيل شبكة Wi-Fi إلى إلغاء تفعيل الربط باستخدام Wi-Fi."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "لا يتوفر Wi-Fi."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "لا"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "سياسة الأمان تقيد استخدام Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "تعذر الاتصال بالشبكة"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "غير مدعوم"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "الخدمة غير متوفرة، حاول ثانية"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "جاري الاتصال بشبكات الهاتف المحمول...\nقد يتم فرض رسوم إضافية إذا كنت لا تستخدم خطة بيانات ذات سعر موحد"
+msgstr "سياسة الأمان تقيد استخدام Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "شبكات Wi-Fi المتاحة"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "فتح إعدادات Wi-Fi"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "سيتم توصيلك بشبكة الهاتف المحمول. قد يترتب على ذلك فرض تكاليف إضافية."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "الشبكة المحددة (%s) غير متاحة"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "تم الاتصال بشبكة Wi-Fi %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "انقر هنا للاتصال."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "تسجيل الدخول لشبكة Wi-Fi"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "عدم السؤال مرة أخرى"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "غير مدعوم."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "الخدمة غير متوفرة، حاول ثانية."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "يتعذر التوصيل."
 

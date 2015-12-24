@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Tengt"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Hætta við"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Í lagi"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Hámarksfjölda stafa hefur verið náð."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Rangt lykilorð."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Ef kveikt er á Wi-Fi verður slökkt á Wi-Fi tjóðrun."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Enginn Wi-Fi aðgangsstaður fannst."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nei"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Öryggisreglur takmarka notkun Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Mistókst að tengjast við kerfi"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Óstutt"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Þjónustan er ekki tiltæk. Reynið aftur síðar"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Tengi við farsímakerfi...\nViðbótargjöld kunna að fylgja ef þú borgar ekki fast gjald"
+msgstr "Öryggisreglur takmarka notkun Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi-net eru í boði"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Opna Wi-Fi stillingar"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Tengingu verður komið á í gegnum farsímakerfið þitt. Þetta getur haft viðbótarkostnað í för með sér."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Valið kerfi (%s) er ekki í boði"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Tengt við Wi-Fi netið %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Pikkaðu hér til að tengja."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Skrá inn á Wi-Fi-net"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Ekki spyrja aftur"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Óstutt."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Þjónustan er ekki tiltæk. Reyndu síðar."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Mistókst að tengja."
 

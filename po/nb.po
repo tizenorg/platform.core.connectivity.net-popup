@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Tilkoblet"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Avbryt"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Nådd maksimalt antall tegn."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Feil passord."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Hvis du slår på Wi-Fi, vil Wi-Fi-internettdeling deaktiveres."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Ingen Wi-Fi-tilgangspunkt funnet."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nei"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Sikkerhetspolicy begrenser bruk av Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Kan ikke koble til nettverket"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Støttes ikke"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Tjenester er ikke tilgjengelig. forsøk senere"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Kobler til mobilnettverk...\nDette kan medføre ekstra kostnader hvis du ikke bruker en fastpris"
+msgstr "Sikkerhetspolicy begrenser bruk av Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi-nettverk tilgjengelige"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Åpne Wi-Fi-innstillinger"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Du vil bli koblet til mobilnettet. Dette kan medføre ekstrakostnader."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Valgt nettverk (%s) er ikke tilgjengelig"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Tilkoblet til Wi-Fi-nettverk %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Trykk her for å koble til."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Logg på Wi-Fi-nettverk"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Ikke spør på nytt"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Støttes ikke."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Tjenester er ikke tilgjengelig. forsøk senere."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Kan ikke opprette forbindelse."
 

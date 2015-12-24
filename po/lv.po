@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Savienots"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Labi"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Sasniegts maksimālais rakstzīmju skaits."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Nepareiza parole."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Aktivizējot Wi-Fi, tiks deaktivizēta Wi-Fi piesaiste."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Nav atrasts neviens Wi-Fi piekļuves punkts."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nē"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Drošības politika ierobežo Wi-Fi lietošanu"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Nevar izveidot savienojumu ar tīklu"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Nav nodrošināts"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Pakalpojums nav pieejams. mēģiniet vēlāk"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Veido savienojumu ar mobilajiem tīkliem...\nJa neizmantojat vienoto tarifa plānu, var rasties papildu izmaksas"
+msgstr "Drošības politika ierobežo Wi-Fi lietošanu."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi tīkli pieejami"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Atvērt Wi-Fi iestatījumus"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Tiks izveidots savienojums ar jūsu mobilo tīklu. Tas var radīt papildu izmaksas."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Izvēlētais tīkls (%s) nav pieejams"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Izveidots savienojums ar Wi-Fi tīklu %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Pieskarieties šeit, lai izveidotu savienojumu."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Pierakstieties Wi-Fi tīk."
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Vairs nevaicāt"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nav nodrošināts."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Pakalpojums nav pieejams. mēģiniet vēlāk."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Nevar izveidot savienojumu."
 

@@ -22,18 +22,22 @@ pkg_check_modules(pkgs REQUIRED
 	edje
 	elementary
 	evas
-	status
 	syspopup
 	notification
-	appsvc)
+	capi-appfw-application
+	dbus-glib-1
+	glib-2.0
+	appsvc
+	vconf
+	efl-extension)
 
 FOREACH(flag ${pkgs_CFLAGS})
 	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
 ENDFOREACH(flag)
 
-SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS} -Wall -Werror -fvisibility=hidden")
-SET(CMAKE_C_FLAGS_DEBUG "-O0 -g")
-SET(CMAKE_C_FLAGS_RELEASE "-O2")
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS} -Wall -Werror -fvisibility=hidden -fPIE")
+SET(CMAKE_C_FLAGS_DEBUG "-O0 -g -fPIE")
+SET(CMAKE_C_FLAGS_RELEASE "-O2 -fPIE")
 
 FIND_PROGRAM(UNAME NAMES uname)
 EXEC_PROGRAM("${UNAME}" ARGS "-m" OUTPUT_VARIABLE "ARCH")
@@ -44,19 +48,24 @@ ENDIF("${ARCH}" STREQUAL "arm")
 
 ADD_DEFINITIONS("-DPREFIX=\"${CMAKE_INSTALL_PREFIX}\"")
 
-IF(WAYLAND_SUPPORT)
-    ADD_DEFINITIONS("-DWAYLAND")
-ENDIF(WAYLAND_SUPPORT)
-
-SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
+SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed -pie")
 
 ADD_EXECUTABLE(${PROJECT_NAME} ${SRCS})
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS} -pie)
 
-INSTALL(TARGETS ${PROJECT_NAME} DESTINATION /usr/apps/org.tizen.net-popup/bin)
+ADD_CUSTOM_TARGET(netpopup-custom.edj
+	COMMAND edje_cc ${CMAKE_CURRENT_SOURCE_DIR}/edcs/netpopup-custom.edc
+		${CMAKE_CURRENT_SOURCE_DIR}/edcs/netpopup-custom.edj
+		DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/edcs/netpopup-custom.edc
+)
+
+ADD_DEPENDENCIES(${PROJECT_NAME} netpopup-custom.edj)
+
+INSTALL(TARGETS ${PROJECT_NAME} DESTINATION bin)
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/org.tizen.net-popup.xml DESTINATION ${PREFIX}/share/packages/)
+INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/edcs/netpopup-custom.edj DESTINATION /usr/ug/res/edje/net-popup/)
+INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/net.netpopup.xml DESTINATION ${PREFIX}/share/packages/)
 
 ADD_SUBDIRECTORY(po)

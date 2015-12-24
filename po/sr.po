@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Povezan"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Otkaži"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Dostignut maksimalan broj karaktera."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Pogrešna šifra."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Uključivanje Wi-Fi veze će onemogućiti Wi-Fi vezivanje."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Nema Wi-Fi pristupne tačke."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Ne"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Politika bezbednosti ograničava upotrebu Wi-Fija"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Nemoguće povezati se na mrežu"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Nepodržano"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Usluga nedostupna. probaj kasnije"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Povezivanje na mobilne mreže...\nMože doći do dodatnih troškova ako ne koristiš paušalni plan plaćanja za prenos podataka"
+msgstr "Politika bezbednosti ograničava upotrebu Wi-Fija."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi mreže dostupne"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Otvori Wi-Fi podešavanja"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Bićeš povezan/a na mreže mobilne telefonije. To može dovesti do dodatnih troškova."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Izabrana mreža (%s) nije dostupna"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Povezan na Wi-Fi mrežu %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Kucni ovde za povezivanje."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Prijavi se na Wi-Fi mrežu"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Ne pitaj ponovo"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nepodržano."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Usluga nedostupna. probaj kasnije."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Povezivanje nemoguće."
 

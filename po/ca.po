@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Connectat"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancel"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Acceptar"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "S'ha assolit el nombre màxim de caràcters"
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Contrasenya incorrecta"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Si activa el Wi-Fi, es deshabilitarà el tethering Wi-Fi"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "No es troba Wi-Fi AP"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "No"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
 msgstr "La política de seguretat restringeix l'ús de Wi-Fi"
 
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Error en la connexió a la xarxa"
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Xarxes Wi-Fi disponibles"
+
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Se'l connectarà a la seva xarxa mòbil. Això pot comportar càrrecs addicionals."
+
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Connectat a la xarxa Wi-Fi %s"
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Toqui aquí per connectar."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Iniciar ses a xarxa Wi-Fi"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "No ho tornis a preguntar"
 
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "No s'admet"
 
 msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Servei no disponible. Intenti-ho més tard"
+msgstr "Servei no disponible. Intenti-ho més tard."
 
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Connectant a xarxes mòbils...\nPot comportar càrrecs addicionals si no utilitza una tarifa plana de dades"
-
-msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
-msgstr "Xarxes Wi-Fi disponibles"
-
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Obrir ajustaments Wi-Fi"
-
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Xarxa seleccionada (%s) no disponible"
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "No es pot connectar"
 

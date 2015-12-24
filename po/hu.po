@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Csatlakoztatva"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Mégse"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Nincs hely több karakternek."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Téves jelszó"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "A Wi-Fi bekapcsolásával letiltja a Wi-Fi internetmegosztást."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Nem található Wi-Fi hozzáférési pont."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "Nem"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "A biztonsági irányelv korlátozza a Wi-Fi használatát"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Nem lehet kapcsolódni a hálózathoz"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Nem támogatott"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "A szolgáltatás nem elérhető. próbálja meg később"
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Mobilhálózati kapcsolat létesítése...\nHa nem átalánydíjas adatcsomagra fizetett elő, akkor további költségek merülhetnek fel"
+msgstr "A biztonsági irányelv korlátozza a Wi-Fi használatát."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Wi-Fi-hálózat elérhető"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Wi-Fi beállítások megnyitása"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Kapcsolódni fog a mobilhálózathoz. Ez további költséggel járhat."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "A kiválasztott hálózat (%s) nem elérhető"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "A(z) %s Wi-Fi hálózathoz kapcsolódva."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Érintse meg a kapcsolódáshoz."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Bejel. a Wi-Fi hálózatba"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Máskor ne legyen kérdés"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Nem támogatott."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "A szolgáltatás nem elérhető. próbálja meg később."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "A csatlakozás sikertelen."
 

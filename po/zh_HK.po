@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "已連接"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "取消"
+
+msgid "IDS_COM_SK_OK"
+msgstr "確定"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "字元數目已達上限。"
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "密碼錯誤"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "開啟 Wi-Fi 將停用 Wi-Fi 網絡共享。"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "找不到 Wi-Fi AP。"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "否"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "安全政策限制使用 Wi-Fi"
+msgstr "安全政策限制使用 Wi-Fi。"
 
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "無法連接網絡"
+msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
+msgstr "Wi-Fi 網絡可用"
+
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "您將連接至流動網絡。這可能產生額外費用。"
+
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "已連接到 Wi-Fi 網絡 %s。"
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "輕觸此處以連接。"
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "登入至 Wi-Fi 網絡"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "不再詢問"
 
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "不支援"
 
 msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "無可用服務。請稍後再試"
+msgstr "無可用服務。請稍後再試。"
 
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "正在連接至流動網絡...\n若您並非使用固定收費計劃，將會產生額外費用"
-
-msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
-msgstr "Wi-Fi 網絡可用"
-
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "開啟 Wi-Fi 設定"
-
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "選擇的網絡（%s）不可用"
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "無法連接。"
 

@@ -1,27 +1,54 @@
-msgid "IDS_WIFI_BODY_CONNECTED"
-msgstr "Connesso"
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Annulla"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Raggiunto numero massimo di caratteri."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Password errata."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "L'attivazione del Wi-Fi causa la disattivazione del tethering Wi-Fi."
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Nessun punto di accesso Wi-Fi trovato."
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_COM_SK_NO"
+msgstr "No"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "I criteri di sicurezza limitano l'uso del Wi-Fi"
-
-msgid "IDS_ST_BODY_UNABLE_TO_CONNECT_TO_THE_NETWORK"
-msgstr "Impossibile connettersi alla rete"
-
-msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "Non supportato"
-
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Servizio non disponibile. Riprovare più tardi."
-
-msgid "IDS_ST_POP_CONNECTING_TO_MOBILE_NETWORKS_ING_N_ADDITIONAL_CHARGES_MAY_BE_INCURRED_IF_YOU_ARE_NOT_USING_A_FLAT_RATE_DATA_PLAN"
-msgstr "Connessione a reti mobili in corso...\nPotrebbero essere applicati addebiti aggiuntivi se non si usa un piano dati a tariffa fissa"
+msgstr "I criteri di sicurezza limitano l'uso del Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
 msgstr "Reti Wi-Fi disponibili"
 
-msgid "IDS_WIFI_BODY_OPEN_WI_FI_SETTINGS_ABB"
-msgstr "Apri impostazioni Wi-Fi"
+msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Verrà stabilita una connessione alla rete mobile, che potrebbe comportare l'addebito di spese aggiuntive."
 
-msgid "IDS_COM_BODY_SELECTED_NETWORK_HPS_NOT_AVAILABLE"
-msgstr "Rete selezionata (%s) non disponibile"
+msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Connesso alla rete Wi-Fi %s."
+
+msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
+msgstr "Tocca qui per connetterti."
+
+msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
+msgstr "Accedi a rete Wi-Fi"
+
+msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
+msgstr "Non chiedere più"
+
+msgid "IDS_ST_POP_NOT_SUPPORTED"
+msgstr "Non supportato."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Servizio non disponibile. Riprovare più tardi."
+
+msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
+msgstr "Impossibile stabilire connessione."
 
