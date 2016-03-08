@@ -25,8 +25,9 @@ pkg_check_modules(pkgs REQUIRED
 	syspopup
 	notification
 	capi-appfw-application
-	dbus-glib-1
 	glib-2.0
+	gio-2.0
+	gio-unix-2.0
 	appsvc
 	vconf
 	efl-extension)
