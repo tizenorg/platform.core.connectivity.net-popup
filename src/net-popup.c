@@ -32,9 +32,8 @@
 #include <app_control_internal.h>
 #include <vconf.h>
 #include <vconf-keys.h>
+#include <gio/gio.h>
 #include <dbus/dbus.h>
-#include <dbus/dbus-glib.h>
-#include <dbus/dbus-glib-lowlevel.h>
 #include <bundle_internal.h>
 #include <efl_extension.h>
 
@@ -81,8 +80,8 @@ char *units[] = {"GB", "MB", "KB", "B"};
 static app_control_h g_req_handle = NULL;
 static char * resp_popup_mode = NULL;
 
-static DBusGConnection *conn = NULL;
-static DBusGProxy *proxy = NULL;
+static GDBusConnection *conn = NULL;
+static GDBusProxy *proxy = NULL;
 
 static int __net_popup_show_notification(app_control_h request, void *data);
 static int __toast_popup_show(app_control_h request, void *data);
@@ -95,20 +94,24 @@ static void __net_popup_show_popup_with_user_resp(app_control_h request, void *d
 static int _net_popup_send_user_resp(char *resp, Eina_Bool state);
 
 
-DBusGProxy *__net_popup_init_dbus(void)
+GDBusProxy *__net_popup_init_dbus(void)
 {
 	GError *err = NULL;
 
-	conn = dbus_g_bus_get(DBUS_BUS_SYSTEM, &err);
+	conn = g_bus_get_sync(G_BUS_TYPE_SYSTEM, NULL, &err);
 	if (err != NULL) {
 		g_error_free(err);
 		return NULL;
 	}
 
-	proxy = dbus_g_proxy_new_for_name(conn, "net.netpopup",
-			"/Netpopup", "net.netpopup");
+	proxy = g_dbus_proxy_new_sync(conn, G_DBUS_PROXY_FLAGS_NONE, NULL, 
+			"net.netpopup",
+			"/Netpopup", 
+			"net.netpopup",
+			NULL, &err);
+
 	if (proxy == NULL) {
-		dbus_g_connection_unref(conn);
+		g_object_unref(conn);
 		conn = NULL;
 	}
 
@@ -123,7 +126,7 @@ void __net_popup_deinit_dbus(void)
 	}
 
 	if (conn) {
-		dbus_g_connection_unref(conn);
+		g_object_unref(conn);
 		conn = NULL;
 	}
 
@@ -136,32 +139,31 @@ int __net_popup_send_dbus_msg(const char *resp)
 		return -1;
 	}
 
-	DBusConnection *gconn = NULL;
-	DBusMessage *msg = NULL;
+	GDBusConnection *gconn = NULL;
+	GVariant *msg = NULL;
 	char *module = "wifi";
+	GError *err = NULL;
 
-	gconn = dbus_g_connection_get_connection(conn);
-	if (gconn == NULL) {
+	gconn = g_bus_get_sync(DBUS_BUS_SYSTEM, NULL, &err);
+	if (err != NULL) {
+		g_error_free(err);
+		err = NULL;
 		return -1;
 	}
 
-	msg = dbus_message_new_signal("/Org/Tizen/Quickpanel",
-					  "org.tizen.quickpanel",
-					  "ACTIVITY");
-	if (!msg) {
+	msg = g_variant_new("(ss)", module, resp);
+	g_dbus_connection_emit_signal(gconn, NULL, "/Org/Tizen/Quickpanel",
+			"org.tizen.quickpanel", "ACTIVITY", msg, &err);
+	if (err) {
+		g_error_free(err);
 		return -1;
 	}
 
-	if (!dbus_message_append_args(msg,
-			DBUS_TYPE_STRING, &module,
-			DBUS_TYPE_STRING, &resp,
-			DBUS_TYPE_INVALID)) {
-		dbus_message_unref(msg);
-		return -1;
-	}
+	g_variant_unref(msg);
 
-	dbus_connection_send(gconn, msg, NULL);
-	dbus_message_unref(msg);
+	if (gconn)
+		g_object_unref(gconn);
+
 
 	return 0;
 }

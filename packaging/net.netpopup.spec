@@ -1,6 +1,6 @@
 Name:       net.netpopup
 Summary:    Network Notification Popup applicationa
-Version:    0.2.78
+Version:    0.2.79
 Release:    1
 Group:      App/Network
 License:    Flora-1.1
@@ -16,8 +16,8 @@ BuildRequires: pkgconfig(evas)
 BuildRequires: pkgconfig(syspopup)
 BuildRequires: pkgconfig(syspopup-caller)
 BuildRequires: pkgconfig(capi-appfw-application)
+BuildRequires: pkgconfig(gio-2.0)
 BuildRequires: pkgconfig(glib-2.0)
-BuildRequires: pkgconfig(dbus-glib-1)
 BuildRequires: pkgconfig(notification)
 BuildRequires: pkgconfig(appsvc)
 BuildRequires: pkgconfig(vconf)
