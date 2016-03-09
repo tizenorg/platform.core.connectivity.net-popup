@@ -29,12 +29,10 @@
 #include <notification_internal.h>
 #include <app.h>
 #include <appsvc.h>
-#include <app_control_internal.h>
 #include <vconf.h>
 #include <vconf-keys.h>
 #include <gio/gio.h>
 #include <dbus/dbus.h>
-#include <bundle_internal.h>
 #include <efl_extension.h>
 
 #include "net-popup.h"
@@ -740,11 +738,11 @@ static int __net_popup_show_popup(app_control_h request, void *data)
 
 static void __net_popup_add_found_ap_noti(void)
 {
-	int noti_flags = 0;
+	int ret = 0, noti_flags = 0;
 	notification_h noti = NULL;
 	notification_list_h noti_list = NULL;
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
-	bundle *b = NULL;
+	app_control_h service_handle = NULL;
 
 	notification_get_detail_list("net.netpopup", NOTIFICATION_GROUP_ID_NONE,
 			NOTIFICATION_PRIV_ID_NONE, -1, &noti_list);
@@ -753,8 +751,7 @@ static void __net_popup_add_found_ap_noti(void)
 		return;
 	}
 
-	noti = notification_new(NOTIFICATION_TYPE_ONGOING, NOTIFICATION_GROUP_ID_NONE,
-			NOTIFICATION_PRIV_ID_NONE);
+	noti = notification_create(NOTIFICATION_TYPE_ONGOING);
 	if (noti == NULL) {
 		log_print(NET_POPUP, "Failed to create notification");
 		return;
@@ -811,19 +808,24 @@ static void __net_popup_add_found_ap_noti(void)
 		goto error;
 	}
 
-	b = bundle_create();
-	bundle_add(b, "caller", "notification");
+	ret = app_control_create(&service_handle);
+	log_print(NET_POPUP, "service create ret[%d]", ret);
+	if(ret != APP_CONTROL_ERROR_NONE)
+		goto error;
 
-	appsvc_set_pkgname(b, "net.wifi-qs");
+	ret = app_control_add_extra_data(service_handle, "caller", "notification");
+	log_print(NET_POPUP, "Service data addition ret = %d", ret);
+	if(ret != APP_CONTROL_ERROR_NONE)
+		goto error;
 
-	noti_err = notification_set_execute_option(noti,
-			NOTIFICATION_EXECUTE_TYPE_SINGLE_LAUNCH, "Launch", NULL, b);
+	noti_err = notification_set_launch_option(noti,
+			NOTIFICATION_LAUNCH_OPTION_APP_CONTROL, service_handle);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
-		log_print(NET_POPUP, "Failed to notification_set_execute_option");
+		log_print(NET_POPUP, "Failed to notification_set_launch_option");
 		goto error;
 	}
 
-	noti_err = notification_insert(noti, NULL);
+	noti_err = notification_post(noti);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
 		log_print(NET_POPUP, "Failed to insert notification");
 		goto error;
@@ -832,8 +834,6 @@ static void __net_popup_add_found_ap_noti(void)
 	log_print(NET_POPUP, "Successfully added notification");
 
 error:
-	if (b != NULL)
-		bundle_free(b);
 
 	if (noti != NULL)
 		notification_free(noti);
@@ -843,8 +843,7 @@ static void __net_popup_del_found_ap_noti(void)
 {
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 
-	noti_err = notification_delete_all_by_type("net.netpopup",
-			NOTIFICATION_TYPE_ONGOING);
+	noti_err = notification_delete_all(NOTIFICATION_TYPE_ONGOING);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
 		log_print(NET_POPUP, "fail to notification_delete_by_priv_id");
 		return;
@@ -857,7 +856,6 @@ static void __net_popup_add_portal_noti(app_control_h request)
 {
 	int ret = 0;
 	int noti_flags = 0;
-	bundle *b = NULL;
 	char *ap_name = NULL;
 	notification_h noti = NULL;
 	app_control_h service_handle = NULL;
@@ -882,8 +880,7 @@ static void __net_popup_add_portal_noti(app_control_h request)
 		return;
 	}
 
-	noti = notification_new(NOTIFICATION_TYPE_NOTI, NOTIFICATION_GROUP_ID_NONE,
-			NOTIFICATION_PRIV_ID_NONE);
+	noti = notification_create(NOTIFICATION_TYPE_NOTI);
 	if (noti == NULL) {
 		log_print(NET_POPUP, "fail to create notification");
 		g_free(ap_name);
@@ -961,20 +958,19 @@ static void __net_popup_add_portal_noti(app_control_h request)
 
 	ret = app_control_set_uri(service_handle, "http://www.google.com");
 
-	app_control_to_bundle (service_handle, &b);
 	if(ret != APP_CONTROL_ERROR_NONE)
 		goto error;
 
-	noti_err = notification_set_execute_option(noti,
-			NOTIFICATION_EXECUTE_TYPE_SINGLE_LAUNCH, "Launch", NULL, b);
+	noti_err = notification_set_launch_option(noti,
+			NOTIFICATION_LAUNCH_OPTION_APP_CONTROL, service_handle);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
-		log_print(NET_POPUP, "fail to notification_set_execute_option");
+		log_print(NET_POPUP, "fail to notification_set_launch_option");
 		goto error;
 	}
 
-	noti_err = notification_insert(noti, NULL);
+	noti_err = notification_post(noti);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
-		log_print(NET_POPUP, "fail to notification_insert");
+		log_print(NET_POPUP, "fail to notification_post");
 		goto error;
 	}
 
@@ -993,9 +989,9 @@ static void __net_popup_del_portal_noti(void)
 {
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 
-	noti_err = notification_delete_all_by_type("net.netpopup", NOTIFICATION_TYPE_NOTI);
+	noti_err = notification_delete_all(NOTIFICATION_TYPE_NOTI);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
-		log_print(NET_POPUP, "fail to notification_delete_all_by_type");
+		log_print(NET_POPUP, "fail to notification_delete_all");
 		return;
 	}
 
