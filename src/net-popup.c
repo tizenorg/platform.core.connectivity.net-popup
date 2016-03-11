@@ -33,24 +33,25 @@
 #include <gio/gio.h>
 #include <dbus/dbus.h>
 #include <efl_extension.h>
+#include <tzplatform_config.h>
 
 #include "net-popup.h"
 #include "net-popup-strings.h"
 
 #define LOCALEDIR			"/usr/share/locale"
-#define NETPOPUP_EDJ 		"/usr/ug/res/edje/net-popup/netpopup-custom.edj"
-#define QP_PRELOAD_NOTI_ICON_PATH "/usr/apps/org.tizen.quickpanel/shared/res/noti_icons/Wi-Fi"
+#define NETPOPUP_EDJ 			tzplatform_mkpath(TZ_SYS_RO_UG, "/res/edje/net-popup/netpopup-custom.edj")
+#define QP_PRELOAD_NOTI_ICON_PATH	tzplatform_mkpath(TZ_SYS_RO_APP, "/org.tizen.quickpanel/shared/res/noti_icons/Wi-Fi")
 
 #define NETCONFIG_NOTIFICATION_WIFI_ICON \
-					"/usr/share/icons/noti_wifi_in_range.png"
+					tzplatform_mkpath(TZ_SYS_RO_ICONS, "/noti_wifi_in_range.png")
 #define NETCONFIG_NOTIFICATION_WIFI_ICON_LITE \
-					"/usr/share/icons/noti_wifi_in_range_ongoing.png"
+					tzplatform_mkpath(TZ_SYS_RO_ICONS, "/noti_wifi_in_range_ongoing.png")
 #define NETCONFIG_NOTIFICATION_WIFI_CAPTIVE_ICON \
-					"/usr/share/icons/B03_notify_Wi-fi_range.png"
+					tzplatform_mkpath(TZ_SYS_RO_ICONS, "/B03_notify_Wi-fi_range.png")
 #define NETCONFIG_NOTIFICATION_WIFI_IN_RANGE_ICON \
-						"/usr/share/icons/Q02_Notification_wifi_in_range.png"
+					tzplatform_mkpath(TZ_SYS_RO_ICONS, "/Q02_Notification_wifi_in_range.png")
 #define NETCONFIG_NOTIFICATION_WIFI_IN_RANGE_ICON_LITE \
-						"/usr/share/icons/noti_wifi_in_range.png"
+					tzplatform_mkpath(TZ_SYS_RO_ICONS, "/noti_wifi_in_range.png")
 #define NETCONFIG_NOTIFICATION_WIFI_FOUND_TITLE \
 		dgettext(PACKAGE, "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE")
 #define NETCONFIG_NOTIFICATION_WIFI_FOUND_CONTENT \
@@ -60,6 +61,7 @@
 #define NETCONFIG_NOTIFICATION_WIFI_PORTAL_CONTENT "\"%s\""
 
 #define USER_RESP_LEN 30
+#define ICON_PATH_LEN 128
 #define RESP_REMAIN_CONNECTED "RESP_REMAIN_CONNECTED"
 #define RESP_WIFI_TETHERING_OFF "RESP_TETHERING_TYPE_WIFI_OFF"
 #define RESP_WIFI_AP_TETHERING_OFF "RESP_TETHERING_TYPE_WIFI_AP_OFF"
@@ -738,6 +740,7 @@ static int __net_popup_show_popup(app_control_h request, void *data)
 static void __net_popup_add_found_ap_noti(void)
 {
 	int ret = 0, noti_flags = 0;
+	char icon_path[ICON_PATH_LEN];
 	notification_h noti = NULL;
 	notification_list_h noti_list = NULL;
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
@@ -762,8 +765,8 @@ static void __net_popup_add_found_ap_noti(void)
 		goto error;
 	}
 
-	noti_err = notification_set_image(noti, NOTIFICATION_IMAGE_TYPE_ICON,
-			QP_PRELOAD_NOTI_ICON_PATH"/noti_wifi_in_range.png");
+	g_snprintf(icon_path, sizeof(icon_path), "%s%s", QP_PRELOAD_NOTI_ICON_PATH, "/noti_wifi_in_range.png");
+	noti_err = notification_set_image(noti, NOTIFICATION_IMAGE_TYPE_ICON, icon_path);
 	if(noti_err != NOTIFICATION_ERROR_NONE) {
 		log_print(NET_POPUP, "Failed to notification_set_image : %d", noti_err);
 		goto error;
@@ -856,6 +859,7 @@ static void __net_popup_add_portal_noti(app_control_h request)
 	int ret = 0;
 	int noti_flags = 0;
 	char *ap_name = NULL;
+	char icon_path[ICON_PATH_LEN];
 	notification_h noti = NULL;
 	app_control_h service_handle = NULL;
 	notification_list_h noti_list = NULL;
@@ -899,8 +903,8 @@ static void __net_popup_add_portal_noti(app_control_h request)
 		goto error;
 	}
 
-	noti_err = notification_set_image(noti, NOTIFICATION_IMAGE_TYPE_ICON,
-			QP_PRELOAD_NOTI_ICON_PATH"/noti_wifi_in_range.png");
+	g_snprintf(icon_path, sizeof(icon_path), "%s%s", QP_PRELOAD_NOTI_ICON_PATH, "/noti_wifi_in_range.png");
+	noti_err = notification_set_image(noti, NOTIFICATION_IMAGE_TYPE_ICON, icon_path);
 	if(noti_err != NOTIFICATION_ERROR_NONE) {
 		log_print(NET_POPUP, "fail to notification_set_image : %d", noti_err);
 		goto error;
