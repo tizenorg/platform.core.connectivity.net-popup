@@ -22,6 +22,7 @@ BuildRequires: pkgconfig(notification)
 BuildRequires: pkgconfig(appsvc)
 BuildRequires: pkgconfig(vconf)
 BuildRequires: pkgconfig(efl-extension)
+BuildRequires: pkgconfig(libtzplatform-config)
 BuildRequires: gettext
 BuildRequires: edje-tools
 
