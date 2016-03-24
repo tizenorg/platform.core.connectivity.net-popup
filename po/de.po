@@ -55,8 +55,14 @@ msgstr "USB-Tethering"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "WLAN-Tethering"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Diese Anwendung kann Virtual Private Networks (VPNs) einrichten und verwalten."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nicht unterstützt"
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Verbinden nicht möglich"

@@ -92,6 +92,7 @@ static void __net_popup_del_found_ap_noti(void);
 static void __net_popup_add_portal_noti(app_control_h request);
 static void __net_popup_del_portal_noti(void);
 static void __net_popup_show_popup_with_user_resp(app_control_h request, void *data);
+static void __net_popup_show_popup_for_vpn_service(app_control_h request, void *data);
 static int _net_popup_send_user_resp(char *resp, Eina_Bool state);
 
 
@@ -303,7 +304,10 @@ static void __net_popup_service_cb(app_control_h request, void *data)
 	} else if (g_str_equal(type, "popup_user_resp")) {
 		app_control_clone(&g_req_handle, request);
 		__net_popup_show_popup_with_user_resp(request, data);
-	} else {
+	} else if(g_str_equal(type, "popup_vpn_service")){
+		app_control_clone(&g_req_handle, request);
+		__net_popup_show_popup_for_vpn_service(request, data);
+	}else {
 		__net_popup_show_notification(request, data);
 		elm_exit();
 	}
@@ -631,6 +635,28 @@ void _tethering_wifi_ap_btn_yes_cb(void *data, Evas_Object *obj, void *event_inf
 	elm_exit();
 }
 
+void _vpn_btn_yes_cb(void *data, Evas_Object *obj, void *event_info)
+{
+	log_print(NET_POPUP, "+");
+	Evas_Object *popup = (Evas_Object *)data;
+
+	if (popup)
+		evas_object_del(popup);
+	if (obj)
+		evas_object_del(obj);
+
+	/* TODO: Enable VPN service */
+
+	elm_exit();
+}
+
+void _vpn_btn_no_cb(void *data, Evas_Object *obj, void *event_info)
+{
+	log_print(NET_POPUP, "vpn - cancel");
+	evas_object_del(obj);
+	elm_exit();
+}
+
 void _btn_no_cb(void *data, Evas_Object *obj, void *event_info)
 {
 	log_print(NET_POPUP, "_btn_no_cb()\n");
@@ -724,6 +750,40 @@ static void __net_popup_show_popup_with_user_resp(app_control_h request,
 		evas_object_show(win);
 		__net_popup_deinit_dbus();
 	}
+}
+
+static void __net_popup_show_popup_for_vpn_service(app_control_h request, void *data)
+{
+	Evas_Object *win;
+	Evas_Object *popup;
+	Evas_Object *button1;
+	Evas_Object *button2;
+
+	win = __net_popup_create_win();
+
+	popup = elm_popup_add(win);
+	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+	elm_object_text_set(popup, ALERT_STR_VPN_CONTENT);
+	elm_object_part_text_set(popup, "title,text", ALERT_STR_VPN_TITLE);
+
+	/* Cancel button */
+	button1 = elm_button_add(popup);
+	elm_object_style_set(button1, "bottom");
+	elm_object_text_set(button1, ALERT_STR_CANCEL);
+	elm_object_part_content_set(popup, "button1", button1);
+	evas_object_smart_callback_add(button1, "clicked", _vpn_btn_no_cb, popup);
+	
+	/* OK button */
+	button2 = elm_button_add(popup);
+	elm_object_style_set(button2, "bottom");
+	elm_object_text_set(button2, ALERT_STR_OK);
+	elm_object_part_content_set(popup, "button2", button2);
+	evas_object_smart_callback_add(button2, "clicked", _vpn_btn_yes_cb, popup);
+
+	evas_object_show(popup);
+	evas_object_show(win);
+
+	return;
 }
 
 static int __net_popup_show_popup(app_control_h request, void *data)

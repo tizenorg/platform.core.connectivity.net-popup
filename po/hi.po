@@ -55,8 +55,14 @@ msgstr "USB टेथरिंग"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Wi-Fi टेथरिंग"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "यह एप्लीकेशन वर्चुअल प्राइवेट नेटवर्क सेवाएँ (VPN) सेट और प्रबंधित कर सकती है।"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "असमर्थित।"
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "कनेक्‍ट करने में अक्षम।"

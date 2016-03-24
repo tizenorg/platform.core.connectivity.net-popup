@@ -55,8 +55,14 @@ msgstr "Прив’язка USB"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Прив’язка Wi-Fi"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Ця програма може здійснювати налаштування віртуальних приватних мереж (VPN) та керування ними."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Не підтримується."
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Неможливо з’єднатися."

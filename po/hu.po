@@ -55,8 +55,14 @@ msgstr "USB-internetmegosztás"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Wi-Fi internetmegosztás"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Az alkalmazás privát hálózati szolgáltatásokat (VPN-eket) állíthat be és kezelhet."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nem támogatott."
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "A csatlakozás sikertelen."

@@ -55,8 +55,14 @@ msgstr "USB տեղակապում"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Wi-Fi տեղակապում"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Այս ծրագիրը կարող է ստեղծել և կառավարել վիրտուալ մասնավոր ցանցի (VPN) ծառայություններ:"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Չի սատարվում:"
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Հնարավոր չէ միանալ:"

@@ -55,8 +55,14 @@ msgstr "USB-yhteys"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Wi-Fi-yhteyden jakaminen"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Tämä sovellus pystyy määrittämään ja hallitsemaan näennäisiä yksityisverkkopalveluita (VPN)."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Ei tuettu."
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Yhdistäminen epäonnistui."

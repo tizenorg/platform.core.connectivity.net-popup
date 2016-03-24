@@ -55,8 +55,14 @@ msgstr "USB modem"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Up.tel. kot mod. po Wi-Fi"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Ta aplikacija lahko nastavlja in upravlja storitve navideznih zasebnih omrežij (VPN)."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nepodprto."
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Ni mogoče povezati."

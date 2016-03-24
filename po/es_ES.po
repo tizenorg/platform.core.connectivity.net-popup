@@ -5,7 +5,7 @@ msgid "IDS_COM_SK_OK"
 msgstr "Aceptar"
 
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
-msgstr "Alcanzado el número máximo de caracteres"
+msgstr "Alcanzado el número máximo de caracteres."
 
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
 msgstr "La política de seguridad restringe el uso de %s"
@@ -55,8 +55,14 @@ msgstr "Módem USB"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Conexión compartida"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Esta aplicación puede configurar y administrar los servicios de redes privadas virtuales (VPN)."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
-msgstr "No admitido"
+msgstr "No admitido."
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "No se puede conectar"
