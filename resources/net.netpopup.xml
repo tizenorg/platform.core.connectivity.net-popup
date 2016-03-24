@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" package="net.netpopup" version="2.4" install-location="internal-only">
+<manifest xmlns="http://tizen.org/ns/packages" package="net.netpopup" api-version="2.4" version="0.2.81" install-location="internal-only">
 	<label>Network popup</label>
 	<author email="sanghoon80.cho@samsung.com" href="www.samsung.com">Sanghoon Cho</author>
 	<description>Network popup</description>
