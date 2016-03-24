@@ -1,6 +1,6 @@
 Name:       net.netpopup
 Summary:    Network Notification Popup applicationa
-Version:    0.2.81
+Version:    0.2.82
 Release:    1
 Group:      App/Network
 License:    Flora-1.1
