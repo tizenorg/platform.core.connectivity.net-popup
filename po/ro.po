@@ -8,7 +8,7 @@ msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Adăugare la marcaje"
 
 msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
-msgstr "Politica de securitate restricţionează utilizarea %s."
+msgstr "Politica de securitate restricționează utilizarea %s."
 
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Parolă incorectă"
@@ -17,28 +17,28 @@ msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
 msgstr "Activarea Wi-Fi va dezactiva furnizarea accesului la internet prin Wi-Fi."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
-msgstr "Nu a fost găsită o aplicaţie Wi-Fi."
+msgstr "Nu a fost găsită o aplicație Wi-Fi."
 
 msgid "IDS_COM_SK_NO"
 msgstr "Nu"
 
 msgid "IDS_COM_POP_SECURITY_POLICY_RESTRICTS_USE_OF_WI_FI"
-msgstr "Politica de securitate restricţionează utilizarea reţelei Wi-Fi."
+msgstr "Politica de securitate restricționează utilizarea rețelei Wi-Fi."
 
 msgid "IDS_COM_BODY_WI_FI_NETWORKS_AVAILABLE"
-msgstr "Reţele Wi-Fi disponibile"
+msgstr "Rețele Wi-Fi disponibile"
 
 msgid "IDS_QP_POP_YOU_WILL_BE_CONNECTED_TO_YOUR_MOBILE_NETWORK_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
-msgstr "Veţi fi conectat la reţeaua mobilă. Aceasta poate genera costuri suplimentare."
+msgstr "Veți fi conectat la rețeaua mobilă. Aceasta poate genera costuri suplimentare."
 
 msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
-msgstr "Conectat la reţeaua Wi-Fi %s"
+msgstr "Conectat la rețeaua Wi-Fi %s"
 
 msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
-msgstr "Atingeţi aici pentru a vă conecta."
+msgstr "Atingeți aici pentru a vă conecta."
 
 msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
-msgstr "Conect. la reţeaua Wi-Fi"
+msgstr "Conect. la rețeaua Wi-Fi"
 
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Nu întreba din nou"
@@ -55,12 +55,18 @@ msgstr "Partajare conex. Internet"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Furn. acc. Internet Wi-Fi"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Aplicația poate configura și gestiona servicii de rețele virtuale private (rețele VPN)."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Neacceptat"
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Conectare imposibilă"
 
 msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Serviciu indisponibil, încercaţi mai târziu!."
+msgstr "Serviciu indisponibil, încercați mai târziu!."
 

@@ -55,8 +55,14 @@ msgstr "Nascaireacht USB"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Nascaireacht Wi-Fi"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Is féidir leis an bhfeidhmchlár seo líonraí príobháideacha fíorúla (VPNanna) a shocrú agus a bhainistiú."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Gan tacú."
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Ní féidir nascadh."

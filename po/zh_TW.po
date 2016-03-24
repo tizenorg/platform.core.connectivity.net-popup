@@ -55,8 +55,14 @@ msgstr "USB數據連線"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Wi-Fi 網路共享"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "此應用程式可設定並管理虛擬私人網路服務 (VPN)。"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "不支援"
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "無法連線。"

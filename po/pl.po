@@ -55,8 +55,14 @@ msgstr "Router USB"
 msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
 msgstr "Router Wi-Fi"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_UP_AND_MANAGE_VIRTUAL_PRIVATE_NETWORK_SERVICES_HVPNS"
+msgstr "Ta aplikacja może konfigurować usługi wirtualnych sieci prywatnych (VPN) i zarządzać nimi."
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nieobsługiwane."
+
+msgid "IDS_ST_BODY_VPN"
+msgstr "VPN"
 
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Nie można połączyć."

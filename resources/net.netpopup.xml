@@ -4,6 +4,9 @@
 	<description>Network popup</description>
 	<ui-application appid="net.netpopup" exec="/usr/bin/net-popup" nodisplay="true" multiple="true" type="capp" taskmanage="false">
 		<label>Network popup</label>
+		<app-control>
+			<operation name="http://tizen.org/appcontrol/operation/setting/vpn"/>
+		</app-control>
 	</ui-application>
 	<privileges>
 		<privilege>http://tizen.org/privilege/notification</privilege>
