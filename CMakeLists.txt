@@ -67,6 +67,6 @@ INSTALL(TARGETS ${PROJECT_NAME} DESTINATION bin)
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
 INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/edcs/netpopup-custom.edj DESTINATION /usr/ug/res/edje/net-popup/)
-INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/net.netpopup.xml DESTINATION ${PREFIX}/share/packages/)
+INSTALL(FILES ${CMAKE_BINARY_DIR}/resources/org.tizen.net-popup.xml DESTINATION ${PREFIX}/share/packages/)
 
 ADD_SUBDIRECTORY(po)

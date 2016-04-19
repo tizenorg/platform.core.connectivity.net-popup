@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.net-popup" api-version="2.4" version="2.4" install-location="internal-only">
+	<label>Network popup</label>
+	<description>Network popup</description>
+	<ui-application appid="org.tizen.net-popup" exec="/usr/bin/net-popup" nodisplay="true" multiple="true" type="capp" taskmanage="false">
+		<label>Network popup</label>
+	</ui-application>
+</manifest>
