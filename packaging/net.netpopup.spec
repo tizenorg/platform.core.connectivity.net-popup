@@ -1,6 +1,6 @@
 Name:       net.netpopup
 Summary:    Network Notification Popup applicationa
-Version:    0.2.81
+Version:    0.2.82
 Release:    1
 Group:      App/Network
 License:    Flora-1.1
@@ -42,9 +42,6 @@ make %{?_smp_mflags}
 %install
 %make_install
 
-mkdir -p %{buildroot}%{_sysconfdir}/smack/accesses.d/
-cp -v net.netpopup.efl %{buildroot}%{_sysconfdir}/smack/accesses.d/
-
 #License
 mkdir -p %{buildroot}%{_datadir}/license
 cp LICENSE %{buildroot}%{_datadir}/license/net.netpopup
@@ -57,4 +54,3 @@ cp LICENSE %{buildroot}%{_datadir}/license/net.netpopup
 /usr/ug/res/edje/net-popup/*.edj
 %{_datadir}/locale/*/LC_MESSAGES/net-popup.mo
 %{_datadir}/license/net.netpopup
-%{_sysconfdir}/smack/accesses.d/net.netpopup.efl
