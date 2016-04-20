@@ -362,6 +362,7 @@ static int __toast_popup_show(app_control_h request, void *data)
 	char *mode = NULL;
 	Evas_Object *twin = NULL;
 	Evas_Object *tpop = NULL;
+	char *ap_name = NULL;
 
 	ret = app_control_get_extra_data(request, "_SYSPOPUP_CONTENT_", &mode);
 	if (ret != APP_CONTROL_ERROR_NONE) {
@@ -393,6 +394,22 @@ static int __toast_popup_show(app_control_h request, void *data)
 		log_print(NET_POPUP, "alert no ap found\n");
 
 		g_snprintf(buf, ALERT_STR_LEN_MAX, ALERT_STR_ERR_CONNECT);
+	} else if (strcmp(mode, "wifi connected") == 0) {
+		ret = app_control_get_extra_data(request, "_AP_NAME_", &ap_name);
+
+		if (APP_CONTROL_ERROR_NONE != ret) {
+			log_print(NET_POPUP, "Failed to get _AP_NAME_ ret = %d", ret);
+			g_free(mode);
+			return 0;
+		}
+
+		if (ap_name != NULL)
+			g_snprintf(buf, ALERT_STR_LEN_MAX, ALERT_STR_WIFI_CONNECTED, ap_name);
+		else
+			g_snprintf(buf, ALERT_STR_LEN_MAX, ALERT_STR_WIFI_CONNECTED, "");
+
+		log_print(NET_POPUP, "alert wifi connected\n");
+		g_free(ap_name);
 	} else
 		log_print(NET_POPUP, "%s\n", mode);
 
