@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Nincs hely több karakternek."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "A biztonsági irányelv korlátozza a(z) %s használatát."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Téves jelszó"
 
@@ -15,9 +18,6 @@ msgstr "A Wi-Fi bekapcsolásával letiltja a Wi-Fi internetmegosztást."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Nem található Wi-Fi hozzáférési pont."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Nem"
@@ -43,12 +43,24 @@ msgstr "Bejel. a Wi-Fi hálózatba"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Máskor ne legyen kérdés"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Bluetooth internetmegosztás"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "USB-internetmegosztás"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Wi-Fi internetmegosztás"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nem támogatott."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "A szolgáltatás nem elérhető. próbálja meg később."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "A csatlakozás sikertelen."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "A szolgáltatás nem elérhető. próbálja meg később."
 

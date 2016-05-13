@@ -7,6 +7,9 @@ msgstr "Aceptar"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Se ha alcanzado el número máximo de caracteres."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "La política de seguridad restringe el uso de %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Contraseña incorrecta"
 
@@ -15,9 +18,6 @@ msgstr "La activación de Wi-Fi desactivará el anclaje a red Wi-Fi."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "No se ha encontrado ningún Punto de Acceso de Wi-Fi."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "No"
@@ -43,12 +43,24 @@ msgstr "Acceder a la red Wi-Fi"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "No volver a preguntar"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Anclaje a red Bluetooth"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "Anclaje a red USB"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Anclaje a red de Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "No soportado."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Servicio no disponible. Inténtelo más tarde."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Error al conectar."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Servicio no disponible. Inténtelo más tarde."
 

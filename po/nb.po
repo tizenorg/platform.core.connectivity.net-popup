@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Nådd maksimalt antall tegn."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Sikkerhetspolicy begrenser bruk av %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Feil passord."
 
@@ -15,9 +18,6 @@ msgstr "Hvis du slår på Wi-Fi, vil Wi-Fi-internettdeling deaktiveres."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Ingen Wi-Fi-tilgangspunkt funnet."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Nei"
@@ -43,12 +43,24 @@ msgstr "Logg på Wi-Fi-nettverk"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Ikke spør på nytt"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Internettdeling via Bluetooth"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "USB-internettdeling"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Wi-Fi-Internettdeling"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Støttes ikke."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Tjenester er ikke tilgjengelig. forsøk senere."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Kan ikke opprette forbindelse."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Tjenester er ikke tilgjengelig. forsøk senere."
 

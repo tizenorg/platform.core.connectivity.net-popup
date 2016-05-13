@@ -7,6 +7,9 @@ msgstr "Tamam"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Maksimum karakter sayısına ulaşıldı."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Güvenlik ilkesi %s kullanımını kısıtlıyor."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Yanlış şifre."
 
@@ -15,9 +18,6 @@ msgstr "Wi-Fi'yi açmak Wi-Fi tethering'i devre dışı bırakır."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Hiç Wi-Fi AP bulunamadı."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Hayır"
@@ -43,12 +43,24 @@ msgstr "Wi-Fi ağına oturum açın"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Tekrar sorma"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Bluetooth bağlantısı"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "USB bağlanıyor"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Wi-Fi bağlantısı"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Desteklenmiyor."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Hizmete Erişilemiyor. Daha Sonra Deneyin."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Bağlantı başarısız."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Hizmete Erişilemiyor. Daha Sonra Deneyin."
 

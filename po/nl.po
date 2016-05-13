@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Maximumaantal tekens bereikt."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Gebruik van %s beperkt door beveiligingsbeleid."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Onjuist wachtwoord."
 
@@ -15,9 +18,6 @@ msgstr "Als u Wi-Fi inschakelt, wordt Wi-Fi-tethering uitgeschakeld."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Geen Wi-Fi AP gevonden."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Nee"
@@ -43,12 +43,24 @@ msgstr "Log in bij Wi-Fi-netwerk"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Niet meer vragen"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Bluetooth-tethering"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "USB-tethering"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Wi-Fi-tethering"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Niet ondersteund."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Dienst niet beschikbaar. Probeer het later opnieuw."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Verbinding mislukt."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Dienst niet beschikbaar. Probeer het later opnieuw."
 

@@ -7,6 +7,9 @@ msgstr "ОК"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Досягнуто максимальної кількості символів."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Використання %s обмежено політикою безпеки."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Хибний пароль."
 
@@ -15,9 +18,6 @@ msgstr "Увімкнення мережі Wi-Fi призведе до вимкн
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Жодної ТД Wi-Fi не знайдено."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Ні"
@@ -43,12 +43,24 @@ msgstr "Реєстрація в мережі Wi-Fi"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Більше не запитувати"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Прив’язка Bluetooth"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "Прив’язка USB"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Прив’язка Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Не підтримується."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Послуга недоступна. спробуйте пізніше."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Неможливо з’єднатися."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Послуга недоступна. спробуйте пізніше."
 

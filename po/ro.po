@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Adăugare la marcaje"
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Politica de securitate restricţionează utilizarea %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Parolă incorectă"
 
@@ -15,9 +18,6 @@ msgstr "Activarea Wi-Fi va dezactiva furnizarea accesului la internet prin Wi-Fi
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Nu a fost găsită o aplicaţie Wi-Fi."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Nu"
@@ -43,12 +43,24 @@ msgstr "Conect. la reţeaua Wi-Fi"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Nu întreba din nou"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Tethering prin Bluetooth"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "Partajare conex. Internet"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Furn. acc. Internet Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Neacceptat"
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Serviciu indisponibil, încercaţi mai târziu!."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Conectare imposibilă"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Serviciu indisponibil, încercaţi mai târziu!."
 

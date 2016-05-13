@@ -7,6 +7,9 @@ msgstr "Labi"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Sasniegts maksimālais rakstzīmju skaits."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Drošības politika ierobežo %s lietošanu."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Nepareiza parole."
 
@@ -15,9 +18,6 @@ msgstr "Aktivizējot Wi-Fi, tiks deaktivizēta Wi-Fi piesaiste."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Nav atrasts neviens Wi-Fi piekļuves punkts."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Nē"
@@ -43,12 +43,24 @@ msgstr "Pierakstieties Wi-Fi tīk."
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Vairs nevaicāt"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Bluetooth piesaiste"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "USB piesaiste"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Wi-Fi piesaiste"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nav nodrošināts."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Pakalpojums nav pieejams. mēģiniet vēlāk."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Nevar izveidot savienojumu."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Pakalpojums nav pieejams. mēģiniet vēlāk."
 

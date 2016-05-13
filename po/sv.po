@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Maximalt antal tecken har använts."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Säkerhetspolicyn begränsar användningen av %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Fel lösenord."
 
@@ -15,9 +18,6 @@ msgstr "Om du slår på Wi-Fi inaktiveras Wi-Fi-internetdelning."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Det finns ingen Wi-Fi-åtkomstpunkt."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Nej"
@@ -43,12 +43,24 @@ msgstr "Logga in på Wi-Fi-nätv."
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Fråga inte igen"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "Bluetooth-internetdelning"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "USB-internetdelning"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Wi-Fi-internetdelning"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Kan ej användas."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Tjänsten är inte tillgänglig. försök senare."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Det gick inte att ansluta."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Tjänsten är inte tillgänglig. försök senare."
 

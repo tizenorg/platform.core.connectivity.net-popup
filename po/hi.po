@@ -7,6 +7,9 @@ msgstr "ओके"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "वर्णो की संख्‍या अधिकतम पहुँची।"
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "सुरक्षा नीति %s के उपयोग को सीमित करता है"
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "गलत पासवर्ड।"
 
@@ -15,9 +18,6 @@ msgstr "Wi-Fi चालू करने पर Wi-Fi टेथरिंग अ�
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "कोई Wi-Fi AP नहीं मिला।"
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "नहीं"
@@ -43,12 +43,24 @@ msgstr "Wi-Fi नेटवर्क साइन इन करे"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "दोबारा न पूछें"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_MOBILEAP_BODY_BLUETOOTH_TETHERING"
+msgstr "ब्लूटूथ टेथरिंग"
+
+msgid "IDS_MOBILEAP_MBODY_USB_TETHERING"
+msgstr "USB टेथरिंग"
+
+msgid "IDS_MOBILEAP_MBODY_WI_FI_TETHERING"
+msgstr "Wi-Fi टेथरिंग"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "असमर्थित।"
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "सेवा अनुपलब्‍ध। बाद में कोशिश करें।"
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "कनेक्‍ट करने में अक्षम।"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "सेवा अनुपलब्‍ध। बाद में कोशिश करें।"
 
