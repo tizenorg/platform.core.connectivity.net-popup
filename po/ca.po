@@ -1,11 +1,14 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Cancel"
+msgstr "Cancel·lar"
 
 msgid "IDS_COM_SK_OK"
 msgstr "Acceptar"
 
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "S'ha assolit el nombre màxim de caràcters"
+
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "La política de seguretat restringeix l'ús de %s"
 
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Contrasenya incorrecta"
@@ -15,9 +18,6 @@ msgstr "Si activa el Wi-Fi, es deshabilitarà el tethering Wi-Fi"
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "No es troba Wi-Fi AP"
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "No"
@@ -43,12 +43,15 @@ msgstr "Iniciar ses a xarxa Wi-Fi"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "No ho tornis a preguntar"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "No s'admet"
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Servei no disponible. Intenti-ho més tard."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "No es pot connectar"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Servei no disponible. Intenti-ho més tard."
 

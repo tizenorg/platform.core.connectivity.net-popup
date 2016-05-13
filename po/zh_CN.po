@@ -7,6 +7,9 @@ msgstr "确定"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "已达到最大字符限制"
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "安全政策限制 %s 的使用。"
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "密码错误"
 
@@ -14,10 +17,7 @@ msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
 msgstr "打开 Wi-Fi 将禁用 Wi-Fi 网络共享。"
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
-msgstr "未找到Wi-Fi AP。"
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
+msgstr "未找到 Wi-Fi AP。"
 
 msgid "IDS_COM_SK_NO"
 msgstr "否"
@@ -35,20 +35,23 @@ msgid "IDS_ST_BODY_CONNECTED_TO_WI_FI_NETWORK_PS"
 msgstr "已连接到Wi-Fi网络%s。"
 
 msgid "IDS_WIFI_SBODY_TAP_HERE_TO_CONNECT"
-msgstr "轻敲此处以连接"
+msgstr "点击此处以连接"
 
 msgid "IDS_WIFI_HEADER_SIGN_IN_TO_WI_FI_NETWORK_ABB"
-msgstr "登录至 Wi-Fi 网络"
+msgstr "登录 Wi-Fi 网络"
 
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "不要再询问"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "不支持"
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "服务不可用。稍后再试。"
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "无法连接。"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "服务不可用。稍后再试。"
 

@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Belgilar soni ruxsat etilgan maksimal miqdorga yetdi."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Xavfsizlik siyosati %sdan foydalanishni cheklaydi."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Noto‘g‘ri parol."
 
@@ -15,9 +18,6 @@ msgstr "Wi-Fini yoqish Wi-Fi bog‘lanishni o‘chiradi."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Wi-Fi AP topilmadi."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Yo‘q"
@@ -43,12 +43,15 @@ msgstr "Wi-Fi tarmoqqa kirish"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Qayta so‘ralmasin"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Qo‘llab-quvvatlanmaydi."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Xizmatdan foydalanib bo‘lmaydi. Keyinroq urinib ko‘ring."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Ulanib bo‘lmaydi."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Xizmatdan foydalanib bo‘lmaydi. Keyinroq urinib ko‘ring."
 

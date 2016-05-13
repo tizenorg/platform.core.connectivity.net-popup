@@ -7,6 +7,9 @@ msgstr "V redu"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Doseženo je največje dovoljeno število znakov."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Varnostni pravilnik omejuje uporabo programa %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Napačno geslo."
 
@@ -15,9 +18,6 @@ msgstr "Vklop vmesnika Wi-Fi bo onemogočil privezovanje prek Wi-Fi."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Ne najdem dostopne točke Wi-Fi."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Ne"
@@ -43,12 +43,15 @@ msgstr "Prijava v omrežje Wi-Fi"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Ne vprašaj znova"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nepodprto."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Storitve ni na voljo. poskusite znova."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Ni mogoče povezati."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Storitve ni na voljo. poskusite znova."
 

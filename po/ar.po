@@ -7,17 +7,17 @@ msgstr "موافق"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "تم الوصول إلى أقصى عدد من الحروف."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "سياسة الأمان تقيد استخدام %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "كلمة المرور خاطئة."
 
 msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
-msgstr "سيؤدي تشغيل شبكة Wi-Fi إلى إلغاء تفعيل الربط باستخدام Wi-Fi."
+msgstr "سيؤدي تشغيل شبكة Wi-Fi إلى إلغاء تفعيل تقييد Wi-Fi."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
-msgstr "لا يتوفر Wi-Fi."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
+msgstr "لا يتوفر نقاطة وصول  Wi-Fi."
 
 msgid "IDS_COM_SK_NO"
 msgstr "لا"
@@ -43,12 +43,15 @@ msgstr "تسجيل الدخول لشبكة Wi-Fi"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "عدم السؤال مرة أخرى"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "غير مدعوم."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "الخدمة غير متوفرة، حاول ثانية."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "يتعذر التوصيل."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "الخدمة غير متوفرة، حاول ثانية."
 

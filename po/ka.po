@@ -7,6 +7,9 @@ msgstr "კი"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "მიღწეულია სიმბოლოების მაქსიმალური რაოდენობა."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "უსაფრთხოების პოლიტიკა ზღუდავს, რომ გამოყენებული იქნას %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "პაროლი არასწორია."
 
@@ -15,9 +18,6 @@ msgstr "თუ ჩართავთ Wi-Fi-ს, გამოირთვებ�
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Wi-Fi AP ვერ მოიძებნა."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "არა"
@@ -43,12 +43,15 @@ msgstr "Wi-Fi ქსელში შესვლა"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "აღარ მკითხო"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "გაუთვალისწინებელი."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "მომსახურება არ არის. მოგვიანებით ცადეთ."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "ვერ დაუკავშირდებით."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "მომსახურება არ არის. მოგვიანებით ცადეთ."
 
