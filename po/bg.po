@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Достигнат максимален брой знаци."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Правилата за защита ограничават използването на %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Грешна парола."
 
@@ -15,9 +18,6 @@ msgstr "Включването на Wi-Fi ще деактивира Wi-Fi при
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Не е намерена Wi-Fi AP."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Не"
@@ -43,12 +43,15 @@ msgstr "Влизане в Wi-Fi мрежа"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Не питай повече"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Не се поддържа."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Услугата не е достъпна. опитайте отново."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Не може да се свърже."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Услугата не е достъпна. опитайте отново."
 

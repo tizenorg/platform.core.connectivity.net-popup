@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Uaslíon na gcarachtar bainte amach."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Cuireann an polasaí slándála srian ar %s a úsáid"
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Pasfhocal contráilte."
 
@@ -15,9 +18,6 @@ msgstr "Díchumasófar nascaireacht Wi-Fi má chastar Wi-Fi air"
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Níor aimsíodh AP Wi-Fi."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Ná déan é"
@@ -43,12 +43,15 @@ msgstr "Sínigh ist. líonra Wi-Fi"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Ná hiarr arís"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Gan tacú."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Níl seirbhís ar fáil. Triail arís níos moille."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Ní féidir nascadh."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Níl seirbhís ar fáil. Triail arís níos moille."
 

@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Osiągnięto maksymalną liczbę znaków."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Zasady zabezpieczeń ograniczają użycie %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Błędne hasło"
 
@@ -15,9 +18,6 @@ msgstr "Włączenie sieci Wi-Fi spowoduje wyłączenie udostępniania przez tę 
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Nie znaleziono punktu dostępu Wi-Fi."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Nie"
@@ -43,12 +43,15 @@ msgstr "Zaloguj do sieci Wi-Fi"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Nie pytaj ponownie"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nieobsługiwane."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Usługa niedostępna. Spróbuj później."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Nie można połączyć."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Usługa niedostępna. Spróbuj później."
 

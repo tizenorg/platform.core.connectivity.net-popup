@@ -7,6 +7,9 @@ msgstr "Ընդունել"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Հասել եք նիշերի առավելագույն քանակին:"
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Անվտանգության քաղաքականությունը սահմանափակում է %sի օգտագործումը:"
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Սխալ գաղտնաբառ:"
 
@@ -15,9 +18,6 @@ msgstr "Wi-Fi-ը միացնելը կկասեցնի Wi-Fi տեղակապումը:
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Wi-Fi մատչման կետ չի գտնեվել:"
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Ոչ"
@@ -43,12 +43,15 @@ msgstr "Մտեք Wi-Fi ցանց"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Այլևս չհարցնել"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Չի սատարվում:"
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Ծառայությունը հասանելի չէ. Փորձեք ավելի ուշ:"
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Հնարավոր չէ միանալ:"
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Ծառայությունը հասանելի չէ. Փորձեք ավելի ուշ:"
 

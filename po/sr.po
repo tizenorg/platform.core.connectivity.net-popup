@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Dostignut maksimalan broj karaktera."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Politika bezbednosti ograničava upotrebu %s."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Pogrešna šifra."
 
@@ -15,9 +18,6 @@ msgstr "Uključivanje Wi-Fi veze će onemogućiti Wi-Fi vezivanje."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Nema Wi-Fi pristupne tačke."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Ne"
@@ -43,12 +43,15 @@ msgstr "Prijavi se na Wi-Fi mrežu"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Ne pitaj ponovo"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Nepodržano."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Usluga nedostupna. probaj kasnije."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Povezivanje nemoguće."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Usluga nedostupna. probaj kasnije."
 

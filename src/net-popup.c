@@ -363,6 +363,7 @@ static int __toast_popup_show(app_control_h request, void *data)
 	Evas_Object *twin = NULL;
 	Evas_Object *tpop = NULL;
 	char *ap_name = NULL;
+	char *restricted_type = NULL;
 
 	ret = app_control_get_extra_data(request, "_SYSPOPUP_CONTENT_", &mode);
 	if (ret != APP_CONTROL_ERROR_NONE) {
@@ -407,9 +408,19 @@ static int __toast_popup_show(app_control_h request, void *data)
 			g_snprintf(buf, ALERT_STR_LEN_MAX, ALERT_STR_WIFI_CONNECTED, ap_name);
 		else
 			g_snprintf(buf, ALERT_STR_LEN_MAX, ALERT_STR_WIFI_CONNECTED, "");
-
 		log_print(NET_POPUP, "alert wifi connected\n");
 		g_free(ap_name);
+	} else if (strcmp(mode, "security restriction") == 0) {
+		ret = app_control_get_extra_data(request, "_RESTRICTED_TYPE_", &restricted_type);
+		if (APP_CONTROL_ERROR_NONE != ret) {
+			log_print(NET_POPUP, "Failed to get _RESTRICTED_TYPE_ ret = %d", ret);
+			g_free(mode);
+			return 0;
+		}
+
+		g_snprintf(buf, ALERT_STR_LEN_MAX, ALERT_STR_SECURITY_RESTRICTION, restricted_type);
+		log_print(NET_POPUP, "alert security restriction\n");
+		g_free(restricted_type);
 	} else
 		log_print(NET_POPUP, "%s\n", mode);
 

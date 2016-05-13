@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
 msgstr "Simvol sayı maksimuma çatıb."
 
+msgid "IDS_COM_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_PS"
+msgstr "Təhlükəsizlik siyasəti %s istifadəsini məhdudlaşdırır."
+
 msgid "IDS_ST_POP_WRONG_PASSWORD"
 msgstr "Yanlış şifrə."
 
@@ -15,9 +18,6 @@ msgstr "Wi-Fi-ın yandırılması Wi-Fi bağlantısını qeyri-aktiv edəcək."
 
 msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
 msgstr "Wi-Fi AP tapılmadı."
-
-msgid "IDS_WIFI_BODY_WI_FI"
-msgstr "Wi-Fi"
 
 msgid "IDS_COM_SK_NO"
 msgstr "Xeyr"
@@ -43,12 +43,15 @@ msgstr "Wi-Fi şəbəkəsinə daxil ol"
 msgid "IDS_WIFI_BUTTON_DONT_ASK_AGAIN"
 msgstr "Təkrar soruşma"
 
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
 msgid "IDS_ST_POP_NOT_SUPPORTED"
 msgstr "Dəstəklənmir."
 
-msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
-msgstr "Xidmətdən istifadə etmək mümkün deyil. Bir az sonra cəhd edin."
-
 msgid "IDS_WIFI_POP_UNABLE_TO_CONNECT"
 msgstr "Qoşulmaq mümkün deyil."
+
+msgid "IDS_IM_POP_SERVICE_NOT_AVAIL"
+msgstr "Xidmətdən istifadə etmək mümkün deyil. Bir az sonra cəhd edin."
 
