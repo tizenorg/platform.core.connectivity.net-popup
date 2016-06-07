@@ -5,4 +5,7 @@
 	<ui-application appid="net.netpopup" exec="/usr/bin/net-popup" nodisplay="true" multiple="true" type="capp" taskmanage="false">
 		<label>Network popup</label>
 	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/notification</privilege>
+	</privileges>
 </manifest>

@@ -95,6 +95,8 @@ static int _net_popup_send_user_resp(char *resp, Eina_Bool state);
 
 GDBusProxy *__net_popup_init_dbus(void)
 {
+	log_print(NET_POPUP, "__net_popup_init_dbus()\n");
+
 	GError *err = NULL;
 
 	conn = g_bus_get_sync(G_BUS_TYPE_SYSTEM, NULL, &err);
@@ -105,7 +107,7 @@ GDBusProxy *__net_popup_init_dbus(void)
 
 	proxy = g_dbus_proxy_new_sync(conn, G_DBUS_PROXY_FLAGS_NONE, NULL,
 			"net.netpopup",
-			"/Netpopup", 
+			"/Netpopup",
 			"net.netpopup",
 			NULL, &err);
 
@@ -119,6 +121,8 @@ GDBusProxy *__net_popup_init_dbus(void)
 
 void __net_popup_deinit_dbus(void)
 {
+	log_print(NET_POPUP, "__net_popup_deinit_dbus()\n");
+
 	if (proxy) {
 		g_object_unref(proxy);
 		proxy = NULL;
@@ -134,6 +138,8 @@ void __net_popup_deinit_dbus(void)
 
 int __net_popup_send_dbus_msg(const char *resp)
 {
+	log_print(NET_POPUP, "__net_popup_send_dbus_msg()\n");
+
 	if (conn == NULL || resp == NULL) {
 		return -1;
 	}
@@ -178,6 +184,8 @@ static bool __net_popup_create(void *data)
 
 static void __net_popup_terminate(void *data)
 {
+	log_print(NET_POPUP, "__net_popup_terminate()\n");
+
 	if (ecore_event_evas_handler) {
 		ecore_event_handler_del(ecore_event_evas_handler);
 		ecore_event_evas_handler = NULL;
@@ -192,7 +200,7 @@ static void __net_popup_terminate(void *data)
 
 static void __net_popup_pause(void *data)
 {
-	log_print(NET_POPUP, "__net_popup_pause()");
+	log_print(NET_POPUP, "__net_popup_pause()\n");
 }
 
 static void __net_popup_resume(void *data)
@@ -203,6 +211,8 @@ static void __net_popup_resume(void *data)
 static Eina_Bool __key_release_event_cb(void *data, int type,
 		void *event)
 {
+	log_print(NET_POPUP, "__key_release_event_cb()\n");
+
 	Evas_Event_Key_Down *ev = (Evas_Event_Key_Down *) event;
 
 	if (!ev) {
@@ -302,6 +312,8 @@ static void __net_popup_service_cb(app_control_h request, void *data)
 
 static void __net_popup_set_orientation(Evas_Object *win)
 {
+	log_print(NET_POPUP, "__net_popup_set_orientation()\n");
+
 	int rots[4] = { 0, 90, 180, 270 };
 
 	if (!elm_win_wm_rotation_supported_get(win)) {
@@ -313,6 +325,8 @@ static void __net_popup_set_orientation(Evas_Object *win)
 
 static Evas_Object* __net_popup_create_win(void)
 {
+	log_print(NET_POPUP, "__net_popup_create_win()\n");
+
 	Evas_Object *win = NULL;
 	Evas *e = NULL;
 	Ecore_Evas *ee = NULL;
@@ -325,7 +339,7 @@ static Evas_Object* __net_popup_create_win(void)
 	e = evas_object_evas_get(win);
 	ee = ecore_evas_ecore_evas_get(e);
 	ecore_evas_name_class_set(ee,"APP_POPUP","APP_POPUP");
-	
+
 	elm_win_alpha_set(win, EINA_TRUE);
 	elm_win_borderless_set(win, EINA_TRUE);
 #if 0
@@ -343,6 +357,8 @@ static Evas_Object* __net_popup_create_win(void)
 
 static void _ok_button_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
+	log_print(NET_POPUP, "_ok_button_clicked_cb()\n");
+
 	if (data)
 		evas_object_del(data);
 	elm_exit();
@@ -350,6 +366,8 @@ static void _ok_button_clicked_cb(void *data, Evas_Object *obj, void *event_info
 
 static void _timeout_cb(void *data, Evas_Object *obj, void *event_info)
 {
+	log_print(NET_POPUP, "_timeout_cb()\n");
+
 	evas_object_del(obj);
 
 	elm_exit();
@@ -357,6 +375,8 @@ static void _timeout_cb(void *data, Evas_Object *obj, void *event_info)
 
 static int __toast_popup_show(app_control_h request, void *data)
 {
+	log_print(NET_POPUP, "__toast_popup_show()\n");
+
 	char buf[ALERT_STR_LEN_MAX] = "";
 	int ret = 0;
 	char *mode = NULL;
@@ -442,6 +462,8 @@ static int __toast_popup_show(app_control_h request, void *data)
 
 static int __net_popup_show_notification(app_control_h request, void *data)
 {
+	log_print(NET_POPUP, "__net_popup_show_notification()\n");
+
 	int ret = 0;
 	char *mode = NULL;
 	char buf[ALERT_STR_LEN_MAX] = "";
@@ -515,6 +537,8 @@ static int __net_popup_show_notification(app_control_h request, void *data)
 
 static int _net_popup_send_user_resp(char *resp, Eina_Bool state)
 {
+	log_print(NET_POPUP, "_net_popup_send_user_resp()\n");
+
 	int ret = 0;
 	app_control_h reply = NULL;
 	char checkbox_str[USER_RESP_LEN] = { '\0', };
@@ -565,7 +589,7 @@ static int _net_popup_send_user_resp(char *resp, Eina_Bool state)
 
 void _tethering_wifi_btn_yes_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	log_print(NET_POPUP, "_tethering_wifi_btn_yes_cb");
+	log_print(NET_POPUP, "_tethering_wifi_btn_yes_cb()\n");
 
 	bool result = FALSE;
 	Evas_Object *popup = (Evas_Object *)data;
@@ -586,7 +610,7 @@ void _tethering_wifi_btn_yes_cb(void *data, Evas_Object *obj, void *event_info)
 
 void _tethering_wifi_ap_btn_yes_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	log_print(NET_POPUP, "_tethering_wifi_ap_btn_yes_cb");
+	log_print(NET_POPUP, "_tethering_wifi_ap_btn_yes_cb()\n");
 
 	bool result = FALSE;
 	Evas_Object *popup = (Evas_Object *)data;
@@ -607,7 +631,7 @@ void _tethering_wifi_ap_btn_yes_cb(void *data, Evas_Object *obj, void *event_inf
 
 void _btn_no_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	log_print(NET_POPUP, "_btn_no_cb");
+	log_print(NET_POPUP, "_btn_no_cb()\n");
 
 	bool result = FALSE;
 	Evas_Object *popup = (Evas_Object *)data;
@@ -625,6 +649,8 @@ void _btn_no_cb(void *data, Evas_Object *obj, void *event_info)
 static void __net_popup_show_popup_with_user_resp(app_control_h request,
 		void *data)
 {
+	log_print(NET_POPUP, "__net_popup_show_popup_with_user_resp()\n");
+
 	Evas_Object *win;
 	Evas_Object *popup;
 	Evas_Object *layout;
@@ -700,6 +726,8 @@ static void __net_popup_show_popup_with_user_resp(app_control_h request,
 
 static int __net_popup_show_popup(app_control_h request, void *data)
 {
+	log_print(NET_POPUP, "__net_popup_show_popup()\n");
+
 	Evas_Object *win;
 	Evas_Object *popup;
 	Evas_Object *button;
@@ -775,6 +803,8 @@ static int __net_popup_show_popup(app_control_h request, void *data)
 
 static void __net_popup_add_found_ap_noti(void)
 {
+	log_print(NET_POPUP, "__net_popup_add_found_ap_noti()\n");
+
 	int ret = 0, noti_flags = 0;
 	char icon_path[ICON_PATH_LEN];
 	notification_h noti = NULL;
@@ -865,7 +895,7 @@ static void __net_popup_add_found_ap_noti(void)
 
 	noti_err = notification_post(noti);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
-		log_print(NET_POPUP, "Failed to insert notification");
+		log_print(NET_POPUP, "Failed to insert notification[error# is %d]", noti_err);
 		goto error;
 	}
 
@@ -879,6 +909,8 @@ error:
 
 static void __net_popup_del_found_ap_noti(void)
 {
+	log_print(NET_POPUP, "__net_popup_del_found_ap_noti()\n");
+
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 
 	noti_err = notification_delete_all(NOTIFICATION_TYPE_ONGOING);
@@ -892,6 +924,8 @@ static void __net_popup_del_found_ap_noti(void)
 
 static void __net_popup_add_portal_noti(app_control_h request)
 {
+	log_print(NET_POPUP, "__net_popup_add_portal_noti()\n");
+
 	int ret = 0;
 	int noti_flags = 0;
 	char *ap_name = NULL;
@@ -1026,6 +1060,8 @@ error:
 
 static void __net_popup_del_portal_noti(void)
 {
+	log_print(NET_POPUP, "__net_popup_del_portal_noti()\n");
+
 	notification_error_e noti_err = NOTIFICATION_ERROR_NONE;
 
 	noti_err = notification_delete_all(NOTIFICATION_TYPE_NOTI);
@@ -1039,6 +1075,8 @@ static void __net_popup_del_portal_noti(void)
 
 EXPORT_API int main(int argc, char *argv[])
 {
+	log_print(NET_POPUP, "main()\n");
+
 	ui_app_lifecycle_callback_s app_callback = {
 		.create = __net_popup_create,
 		.terminate = __net_popup_terminate,
