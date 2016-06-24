@@ -38,6 +38,8 @@
 #include "net-popup.h"
 #include "net-popup-strings.h"
 
+#define NET_WIFIQS_APPID	"net.wifi-qs"
+
 #define LOCALEDIR			"/usr/share/locale"
 #define NETPOPUP_EDJ 			tzplatform_mkpath(TZ_SYS_RO_UG, "/res/edje/net-popup/netpopup-custom.edj")
 #define QP_PRELOAD_NOTI_ICON_PATH	tzplatform_mkpath(TZ_SYS_RO_APP, "/org.tizen.quickpanel/shared/res/noti_icons/Wi-Fi")
@@ -877,7 +879,12 @@ static void __net_popup_add_found_ap_noti(void)
 	}
 
 	ret = app_control_create(&service_handle);
-	log_print(NET_POPUP, "service create ret[%d]", ret);
+	log_print(NET_POPUP, "Service create ret[%d]", ret);
+	if(ret != APP_CONTROL_ERROR_NONE)
+		goto error;
+
+	ret = app_control_set_app_id(service_handle, NET_WIFIQS_APPID);
+	log_print(NET_POPUP, "Service set app id ret = %d", ret);
 	if(ret != APP_CONTROL_ERROR_NONE)
 		goto error;
 
